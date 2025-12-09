@@ -1,0 +1,2439 @@
+2025-10-08 11:22:49 - Action: create
+2025-10-08 11:22:49 - Data: Array
+(
+    [brand_name] => sa
+    [model] => sac
+    [quantity_available] => 20
+    [purchase_date] => 2025-10-09
+    [serial_no] => sa
+    [su_no] => scsa
+    [remarks] => caca
+)
+
+2025-10-08 11:22:49 - Creating mouse with data: Array
+(
+    [brand_name] => sa
+    [model] => sac
+    [quantity_available] => 20
+    [purchase_date] => 2025-10-09
+    [serial_no] => sa
+    [su_no] => scsa
+    [remarks] => caca
+)
+
+2025-10-08 11:22:49 - DB Connection: OK
+2025-10-08 11:22:49 - Table columns: id, brand_name, model, quantity_available, purchase_date, serial_no, su_no, remark, created_at
+2025-10-08 11:22:49 - Has remarks column: No
+2025-10-08 11:22:49 - Has remark column: Yes
+2025-10-08 11:22:49 - Query: INSERT INTO mouse 
+                         (brand_name, model, quantity_available, purchase_date, serial_no, su_no, remark)
+                         VALUES (?, ?, ?, ?, ?, ?, ?)
+2025-10-08 11:22:58 - Action: create
+2025-10-08 11:22:58 - Data: Array
+(
+    [brand_name] => sa
+    [model] => sac
+    [quantity_available] => 20
+    [purchase_date] => 2025-10-09
+    [serial_no] => sa
+    [su_no] => scsa
+    [remarks] => caca
+)
+
+2025-10-08 11:22:58 - Creating mouse with data: Array
+(
+    [brand_name] => sa
+    [model] => sac
+    [quantity_available] => 20
+    [purchase_date] => 2025-10-09
+    [serial_no] => sa
+    [su_no] => scsa
+    [remarks] => caca
+)
+
+2025-10-08 11:22:58 - DB Connection: OK
+2025-10-08 11:22:58 - Table columns: id, brand_name, model, quantity_available, purchase_date, serial_no, su_no, remark, created_at
+2025-10-08 11:22:58 - Has remarks column: No
+2025-10-08 11:22:58 - Has remark column: Yes
+2025-10-08 11:22:58 - Query: INSERT INTO mouse 
+                         (brand_name, model, quantity_available, purchase_date, serial_no, su_no, remark)
+                         VALUES (?, ?, ?, ?, ?, ?, ?)
+2025-10-08 11:24:18 - Action: create
+2025-10-08 11:24:18 - Data: Array
+(
+    [brand_name] => sa
+    [model] => sac
+    [quantity_available] => 20
+    [purchase_date] => 2025-10-09
+    [serial_no] => sa
+    [su_no] => scsa
+    [remarks] => caca
+)
+
+2025-10-08 11:24:18 - Creating mouse with data: Array
+(
+    [brand_name] => sa
+    [model] => sac
+    [quantity_available] => 20
+    [purchase_date] => 2025-10-09
+    [serial_no] => sa
+    [su_no] => scsa
+    [remarks] => caca
+)
+
+2025-10-08 11:24:18 - DB Connection: OK
+2025-10-08 11:24:18 - Table columns: id, brand_name, model, quantity_available, purchase_date, serial_no, su_no, remark, created_at
+2025-10-08 11:24:20 - Action: read
+2025-10-08 11:26:59 - Action: create
+2025-10-08 11:26:59 - Data: Array
+(
+    [brand_name] => ADS
+    [model] => DSADS
+    [quantity_available] => 15
+    [purchase_date] => 2025-10-14
+    [serial_no] => QWDQWD
+    [su_no] => WSQDQW
+    [remarks] => DQWQWD
+)
+
+2025-10-08 11:26:59 - Creating mouse with data: Array
+(
+    [brand_name] => ADS
+    [model] => DSADS
+    [quantity_available] => 15
+    [purchase_date] => 2025-10-14
+    [serial_no] => QWDQWD
+    [su_no] => WSQDQW
+    [remarks] => DQWQWD
+)
+
+2025-10-08 11:26:59 - DB Connection: OK
+2025-10-08 11:26:59 - Table columns: id, brand_name, model, quantity_available, purchase_date, serial_no, su_no, remark, created_at
+2025-10-08 11:27:01 - Action: read
+2025-10-08 11:27:56 - Action: create
+2025-10-08 11:27:56 - Data: Array
+(
+    [brand_name] => scsac
+    [model] => sacc
+    [quantity_available] => 102
+    [purchase_date] => 2025-10-06
+    [serial_no] => sacas
+    [su_no] => casc
+    [remarks] => ascascas
+)
+
+2025-10-08 11:27:56 - Creating mouse with data: Array
+(
+    [brand_name] => scsac
+    [model] => sacc
+    [quantity_available] => 102
+    [purchase_date] => 2025-10-06
+    [serial_no] => sacas
+    [su_no] => casc
+    [remarks] => ascascas
+)
+
+2025-10-08 11:27:56 - DB Connection: OK
+2025-10-08 11:27:56 - Table columns: id, brand_name, model, quantity_available, purchase_date, serial_no, su_no, remark, created_at
+2025-10-08 11:27:57 - Action: read
+2025-10-08 11:28:08 - Action: create
+2025-10-08 11:28:08 - Data: Array
+(
+    [brand_name] => wdw
+    [model] => SAXass
+    [quantity_available] => 12
+    [purchase_date] => 2025-10-07
+    [serial_no] => AXas
+    [su_no] => xsAXAs
+    [remarks] => xAXas
+)
+
+2025-10-08 11:28:08 - Creating mouse with data: Array
+(
+    [brand_name] => wdw
+    [model] => SAXass
+    [quantity_available] => 12
+    [purchase_date] => 2025-10-07
+    [serial_no] => AXas
+    [su_no] => xsAXAs
+    [remarks] => xAXas
+)
+
+2025-10-08 11:28:08 - DB Connection: OK
+2025-10-08 11:28:08 - Table columns: id, brand_name, model, quantity_available, purchase_date, serial_no, su_no, remark, created_at
+2025-10-08 11:28:10 - Action: read
+2025-10-08 11:30:09 - Action: create
+2025-10-08 11:30:09 - Data: Array
+(
+    [brand_name] => SSA
+    [model] => CASC
+    [quantity_available] => 15
+    [purchase_date] => 2025-10-14
+    [serial_no] => ASCAS
+    [su_no] => CASCAS
+    [remarks] => CASCA
+)
+
+2025-10-08 11:30:09 - Creating mouse with data: Array
+(
+    [brand_name] => SSA
+    [model] => CASC
+    [quantity_available] => 15
+    [purchase_date] => 2025-10-14
+    [serial_no] => ASCAS
+    [su_no] => CASCAS
+    [remarks] => CASCA
+)
+
+2025-10-08 11:30:09 - DB Connection: OK
+2025-10-08 11:30:09 - Table columns: id, brand_name, model, quantity_available, purchase_date, serial_no, su_no, remark, created_at
+2025-10-08 11:30:11 - Action: read
+2025-10-08 11:33:48 - Action: read
+2025-10-08 11:33:48 - Action: read
+2025-10-08 11:33:50 - Action: read
+2025-10-08 11:34:02 - Action: delete
+2025-10-08 11:34:04 - Action: read
+2025-10-08 11:34:08 - Action: delete
+2025-10-08 11:34:09 - Action: read
+2025-10-08 11:34:21 - Action: delete
+2025-10-08 11:34:22 - Action: read
+2025-10-08 11:38:19 - Action: read
+2025-10-08 11:38:19 - Action: read
+2025-10-08 11:38:20 - Action: read
+2025-10-08 11:38:30 - Action: read
+2025-10-08 11:38:30 - Action: read
+2025-10-08 11:38:31 - Action: read
+2025-10-08 11:39:04 - Action: read
+2025-10-08 11:39:23 - Action: create
+2025-10-08 11:39:23 - Data: Array
+(
+    [brand_name] => 3rw
+    [model] => wdwe
+    [quantity_available] => 15
+    [purchase_date] => 2025-10-06
+    [serial_no] => wsadsa
+    [su_no] => dasdas
+    [remark] => sadasfasf
+)
+
+2025-10-08 11:39:23 - Creating mouse with data: Array
+(
+    [brand_name] => 3rw
+    [model] => wdwe
+    [quantity_available] => 15
+    [purchase_date] => 2025-10-06
+    [serial_no] => wsadsa
+    [su_no] => dasdas
+    [remark] => sadasfasf
+)
+
+2025-10-08 11:39:23 - DB Connection: OK
+2025-10-08 11:39:23 - Table columns: id, brand_name, model, quantity_available, purchase_date, serial_no, su_no, remark, created_at
+2025-10-08 11:39:24 - Action: read
+2025-10-08 11:39:27 - Action: get
+2025-10-08 11:39:32 - Action: create
+2025-10-08 11:39:32 - Data: Array
+(
+    [brand_name] => 3rwqq
+    [model] => dwd
+    [quantity_available] => 15
+    [purchase_date] => 2025-10-06
+    [serial_no] => wsadsa
+    [su_no] => dasdas
+    [remark] => 
+)
+
+2025-10-08 11:39:32 - Creating mouse with data: Array
+(
+    [brand_name] => 3rwqq
+    [model] => dwd
+    [quantity_available] => 15
+    [purchase_date] => 2025-10-06
+    [serial_no] => wsadsa
+    [su_no] => dasdas
+    [remark] => 
+)
+
+2025-10-08 11:39:32 - DB Connection: OK
+2025-10-08 11:39:32 - Table columns: id, brand_name, model, quantity_available, purchase_date, serial_no, su_no, remark, created_at
+2025-10-08 11:39:35 - Action: read
+2025-10-08 11:39:42 - Action: delete
+2025-10-08 11:39:43 - Action: read
+2025-10-08 11:39:55 - Action: delete
+2025-10-08 11:39:57 - Action: read
+2025-10-08 11:39:58 - Action: get
+2025-10-08 11:40:03 - Action: create
+2025-10-08 11:40:03 - Data: Array
+(
+    [brand_name] => scsac
+    [model] => sacc
+    [quantity_available] => 102
+    [purchase_date] => 2025-10-06
+    [serial_no] => sacas
+    [su_no] => casc
+    [remark] => 
+)
+
+2025-10-08 11:40:03 - Creating mouse with data: Array
+(
+    [brand_name] => scsac
+    [model] => sacc
+    [quantity_available] => 102
+    [purchase_date] => 2025-10-06
+    [serial_no] => sacas
+    [su_no] => casc
+    [remark] => 
+)
+
+2025-10-08 11:40:03 - DB Connection: OK
+2025-10-08 11:40:03 - Table columns: id, brand_name, model, quantity_available, purchase_date, serial_no, su_no, remark, created_at
+2025-10-08 11:40:05 - Action: read
+2025-10-08 11:40:10 - Action: get
+2025-10-08 11:40:49 - Action: read
+2025-10-08 11:40:49 - Action: read
+2025-10-08 11:40:50 - Action: read
+2025-10-08 11:40:56 - Action: get
+2025-10-08 11:40:57 - Action: get
+2025-10-08 11:40:59 - Action: create
+2025-10-08 11:40:59 - Data: Array
+(
+    [brand_name] => scsac
+    [model] => sacc
+    [quantity_available] => 102
+    [purchase_date] => 2025-10-06
+    [serial_no] => sacas
+    [su_no] => casc
+    [remark] => ASDAsd
+)
+
+2025-10-08 11:40:59 - Creating mouse with data: Array
+(
+    [brand_name] => scsac
+    [model] => sacc
+    [quantity_available] => 102
+    [purchase_date] => 2025-10-06
+    [serial_no] => sacas
+    [su_no] => casc
+    [remark] => ASDAsd
+)
+
+2025-10-08 11:40:59 - DB Connection: OK
+2025-10-08 11:40:59 - Table columns: id, brand_name, model, quantity_available, purchase_date, serial_no, su_no, remark, created_at
+2025-10-08 11:41:01 - Action: read
+2025-10-08 11:41:46 - Action: read
+2025-10-08 11:41:46 - Action: read
+2025-10-08 11:41:48 - Action: read
+2025-10-08 11:47:21 - Action: read
+2025-10-08 11:47:21 - Action: read
+2025-10-08 11:47:23 - Action: read
+2025-10-08 11:47:25 - Action: get
+2025-10-08 11:47:33 - Action: create
+2025-10-08 11:47:33 - Data: Array
+(
+    [brand_name] => scsacx vxzv z
+    [model] => sacc
+    [quantity_available] => 102
+    [purchase_date] => 2025-10-06
+    [serial_no] => sacas
+    [su_no] => casc
+    [remark] => 
+)
+
+2025-10-08 11:47:33 - Creating mouse with data: Array
+(
+    [brand_name] => scsacx vxzv z
+    [model] => sacc
+    [quantity_available] => 102
+    [purchase_date] => 2025-10-06
+    [serial_no] => sacas
+    [su_no] => casc
+    [remark] => 
+)
+
+2025-10-08 11:47:33 - DB Connection: OK
+2025-10-08 11:47:33 - Table columns: id, brand_name, model, quantity_available, purchase_date, serial_no, su_no, remark, created_at
+2025-10-08 11:47:35 - Action: read
+2025-10-08 11:47:53 - Action: create
+2025-10-08 11:47:53 - Data: Array
+(
+    [brand_name] => scd
+    [model] => scsc
+    [quantity_available] => 20
+    [purchase_date] => 2025-10-06
+    [serial_no] => sc
+    [su_no] => sacascas
+    [remark] => cacasca
+)
+
+2025-10-08 11:47:53 - Creating mouse with data: Array
+(
+    [brand_name] => scd
+    [model] => scsc
+    [quantity_available] => 20
+    [purchase_date] => 2025-10-06
+    [serial_no] => sc
+    [su_no] => sacascas
+    [remark] => cacasca
+)
+
+2025-10-08 11:47:53 - DB Connection: OK
+2025-10-08 11:47:53 - Table columns: id, brand_name, model, quantity_available, purchase_date, serial_no, su_no, remark, created_at
+2025-10-08 11:47:54 - Action: read
+2025-10-08 11:47:55 - Action: get
+2025-10-08 11:47:59 - Action: create
+2025-10-08 11:47:59 - Data: Array
+(
+    [brand_name] => scdsc
+    [model] => scsc
+    [quantity_available] => 20
+    [purchase_date] => 2025-10-06
+    [serial_no] => sc
+    [su_no] => sacascas
+    [remark] => 
+)
+
+2025-10-08 11:47:59 - Creating mouse with data: Array
+(
+    [brand_name] => scdsc
+    [model] => scsc
+    [quantity_available] => 20
+    [purchase_date] => 2025-10-06
+    [serial_no] => sc
+    [su_no] => sacascas
+    [remark] => 
+)
+
+2025-10-08 11:47:59 - DB Connection: OK
+2025-10-08 11:47:59 - Table columns: id, brand_name, model, quantity_available, purchase_date, serial_no, su_no, remark, created_at
+2025-10-08 11:48:00 - Action: read
+2025-10-08 11:49:41 - Action: read
+2025-10-08 11:49:41 - Action: read
+2025-10-08 11:49:42 - Action: read
+2025-10-08 11:49:45 - Action: get
+2025-10-08 11:50:02 - Action: read
+2025-10-08 11:50:02 - Action: read
+2025-10-08 11:50:03 - Action: read
+2025-10-08 11:50:11 - Action: create
+2025-10-08 11:50:11 - Data: Array
+(
+    [brand_name] => scsa
+    [model] => casc
+    [quantity_available] => 15
+    [purchase_date] => 2025-10-15
+    [serial_no] => ascas
+    [su_no] => casca
+    [remark] => scasc
+)
+
+2025-10-08 11:50:11 - Creating mouse with data: Array
+(
+    [brand_name] => scsa
+    [model] => casc
+    [quantity_available] => 15
+    [purchase_date] => 2025-10-15
+    [serial_no] => ascas
+    [su_no] => casca
+    [remark] => scasc
+)
+
+2025-10-08 11:50:11 - DB Connection: OK
+2025-10-08 11:50:11 - Table columns: id, brand_name, model, quantity_available, purchase_date, serial_no, su_no, remark, created_at
+2025-10-08 11:50:12 - Action: read
+2025-10-08 11:50:16 - Action: get
+2025-10-08 11:50:20 - Action: create
+2025-10-08 11:50:20 - Data: Array
+(
+    [brand_name] => scsa
+    [model] => casc
+    [quantity_available] => 15
+    [purchase_date] => 2025-10-15
+    [serial_no] => ascas
+    [su_no] => casca
+    [remark] => scas
+)
+
+2025-10-08 11:50:20 - Creating mouse with data: Array
+(
+    [brand_name] => scsa
+    [model] => casc
+    [quantity_available] => 15
+    [purchase_date] => 2025-10-15
+    [serial_no] => ascas
+    [su_no] => casca
+    [remark] => scas
+)
+
+2025-10-08 11:50:20 - DB Connection: OK
+2025-10-08 11:50:20 - Table columns: id, brand_name, model, quantity_available, purchase_date, serial_no, su_no, remark, created_at
+2025-10-08 11:50:23 - Action: read
+2025-10-08 11:50:30 - Action: delete
+2025-10-08 11:50:31 - Action: read
+2025-10-08 11:50:33 - Action: delete
+2025-10-08 11:50:34 - Action: read
+2025-10-08 11:50:36 - Action: delete
+2025-10-08 11:50:38 - Action: read
+2025-10-08 11:50:39 - Action: delete
+2025-10-08 11:50:40 - Action: read
+2025-10-08 11:50:42 - Action: delete
+2025-10-08 11:50:42 - Action: read
+2025-10-08 11:50:45 - Action: delete
+2025-10-08 11:50:46 - Action: read
+2025-10-08 11:50:48 - Action: delete
+2025-10-08 11:50:48 - Action: read
+2025-10-08 11:50:50 - Action: delete
+2025-10-08 11:50:51 - Action: read
+2025-10-08 11:50:54 - Action: delete
+2025-10-08 11:50:56 - Action: read
+2025-10-08 11:50:59 - Action: delete
+2025-10-08 11:51:00 - Action: read
+2025-10-08 11:51:02 - Action: delete
+2025-10-08 11:51:03 - Action: read
+2025-10-08 11:51:33 - Action: read
+2025-10-08 11:51:33 - Action: read
+2025-10-08 11:51:35 - Action: read
+2025-10-08 11:51:38 - Action: get
+2025-10-08 11:52:00 - Action: read
+2025-10-08 11:52:00 - Action: read
+2025-10-08 11:52:02 - Action: read
+2025-10-08 11:52:04 - Action: get
+2025-10-08 11:52:22 - Action: update
+2025-10-08 11:52:22 - Data: Array
+(
+    [brand_name] => Logitech
+    [model] => M185
+    [quantity_available] => 10
+    [purchase_date] => 2024-09-10
+    [serial_no] => SN12345
+    [su_no] => SU001
+    [remark] => Wireless mouse for office use scsdc
+)
+
+2025-10-08 11:52:22 - Creating mouse with data: Array
+(
+    [brand_name] => Logitech
+    [model] => M185
+    [quantity_available] => 10
+    [purchase_date] => 2024-09-10
+    [serial_no] => SN12345
+    [su_no] => SU001
+    [remark] => Wireless mouse for office use scsdc
+)
+
+2025-10-08 11:52:22 - DB Connection: OK
+2025-10-08 11:52:22 - Table columns: id, brand_name, model, quantity_available, purchase_date, serial_no, su_no, remark, created_at
+2025-10-08 11:52:24 - Action: read
+2025-10-08 12:19:04 - Action: read
+2025-10-08 12:19:04 - Action: read
+2025-10-08 12:19:05 - Action: read
+2025-10-08 12:19:10 - Action: get
+2025-10-08 12:19:21 - Action: create
+2025-10-08 12:19:21 - Data: Array
+(
+    [brand_name] => Logitech
+    [model] => M185
+    [quantity_available] => 10
+    [purchase_date] => 2024-09-10
+    [serial_no] => SN12345
+    [su_no] => SU001
+    [remark] => Wireless mouse for office use scsdc sdsds
+)
+
+2025-10-08 12:19:21 - Creating mouse with data: Array
+(
+    [brand_name] => Logitech
+    [model] => M185
+    [quantity_available] => 10
+    [purchase_date] => 2024-09-10
+    [serial_no] => SN12345
+    [su_no] => SU001
+    [remark] => Wireless mouse for office use scsdc sdsds
+)
+
+2025-10-08 12:19:21 - DB Connection: OK
+2025-10-08 12:19:21 - Table columns: id, brand_name, model, quantity_available, purchase_date, serial_no, su_no, remark, created_at
+2025-10-08 12:19:23 - Action: read
+2025-10-08 12:19:28 - Action: delete
+2025-10-08 12:19:29 - Action: read
+2025-10-08 12:19:30 - Action: delete
+2025-10-08 12:19:31 - Action: read
+2025-10-08 12:20:18 - Action: read
+2025-10-08 12:20:28 - Action: read
+2025-10-08 12:25:11 - Action: read
+2025-10-08 12:25:24 - Action: get
+2025-10-08 12:25:30 - Action: create
+2025-10-08 12:25:30 - Data: Array
+(
+    [brand_name] => Logitech gcgc
+    [model] => M185
+    [quantity_available] => 10
+    [purchase_date] => 2024-09-10
+    [serial_no] => SN12345
+    [su_no] => SU001
+    [remark] => Wireless mouse for office use
+)
+
+2025-10-08 12:25:30 - Creating mouse with data: Array
+(
+    [brand_name] => Logitech gcgc
+    [model] => M185
+    [quantity_available] => 10
+    [purchase_date] => 2024-09-10
+    [serial_no] => SN12345
+    [su_no] => SU001
+    [remark] => Wireless mouse for office use
+)
+
+2025-10-08 12:25:30 - DB Connection: OK
+2025-10-08 12:25:30 - Table columns: id, brand_name, model, quantity_available, purchase_date, serial_no, su_no, remark, created_at
+2025-10-08 12:25:32 - Action: read
+2025-10-08 19:13:55 - Action: read
+2025-10-08 19:13:55 - Action: read
+2025-10-08 19:14:01 - Action: read
+2025-10-08 19:14:19 - Action: create
+2025-10-08 19:14:19 - Data: Array
+(
+    [brand_name] => sf
+    [model] => sdvcddd
+    [quantity_available] => 120
+    [purchase_date] => 2025-10-07
+    [serial_no] => dvdv
+    [su_no] => vdvdv
+    [remark] => dvsdvdv
+)
+
+2025-10-08 19:14:19 - Creating mouse with data: Array
+(
+    [brand_name] => sf
+    [model] => sdvcddd
+    [quantity_available] => 120
+    [purchase_date] => 2025-10-07
+    [serial_no] => dvdv
+    [su_no] => vdvdv
+    [remark] => dvsdvdv
+)
+
+2025-10-08 19:14:19 - DB Connection: OK
+2025-10-08 19:14:19 - Table columns: id, brand_name, model, quantity_available, purchase_date, serial_no, su_no, remark, created_at
+2025-10-08 19:14:20 - Action: read
+2025-10-08 19:14:34 - Action: get
+2025-10-08 19:14:40 - Action: create
+2025-10-08 19:14:40 - Data: Array
+(
+    [brand_name] => sf
+    [model] => sdvcddd
+    [quantity_available] => 120
+    [purchase_date] => 2025-10-07
+    [serial_no] => dvdv wdewdew
+    [su_no] => vdvdv
+    [remark] => dvsdvdv
+)
+
+2025-10-08 19:14:40 - Creating mouse with data: Array
+(
+    [brand_name] => sf
+    [model] => sdvcddd
+    [quantity_available] => 120
+    [purchase_date] => 2025-10-07
+    [serial_no] => dvdv wdewdew
+    [su_no] => vdvdv
+    [remark] => dvsdvdv
+)
+
+2025-10-08 19:14:40 - DB Connection: OK
+2025-10-08 19:14:40 - Table columns: id, brand_name, model, quantity_available, purchase_date, serial_no, su_no, remark, created_at
+2025-10-08 19:14:41 - Action: read
+2025-10-09 10:30:47 - Action: read
+2025-10-09 10:30:47 - Action: read
+2025-10-09 10:30:49 - Action: read
+2025-10-09 11:08:58 - Action: read
+2025-10-09 11:08:58 - Action: read
+2025-10-09 11:09:04 - Action: read
+2025-10-09 11:09:04 - Action: read
+2025-10-09 11:09:06 - Action: read
+2025-10-09 11:20:43 - Action: read
+2025-10-09 11:20:43 - Action: read
+2025-10-09 11:20:48 - Action: read
+2025-10-09 11:20:48 - Action: read
+2025-10-09 11:20:57 - Action: read
+2025-10-09 11:20:57 - Action: read
+2025-10-09 11:22:57 - Action: read
+2025-10-09 11:22:57 - Action: read
+2025-10-09 11:23:30 - Action: read
+2025-10-09 11:23:30 - Action: read
+2025-10-09 11:23:45 - Action: read
+2025-10-09 11:24:10 - Action: read
+2025-10-09 11:24:10 - Action: read
+2025-10-09 11:24:46 - Action: read
+2025-10-09 11:24:46 - Action: read
+2025-10-09 11:24:46 - Action: read
+2025-10-09 11:24:46 - Action: read
+2025-10-09 11:24:49 - Action: read
+2025-10-09 11:24:49 - Action: read
+2025-10-09 11:27:07 - Action: read
+2025-10-09 11:27:07 - Action: read
+2025-10-09 11:27:18 - Action: read
+2025-10-09 11:27:18 - Action: read
+2025-10-09 11:31:16 - Action: read
+2025-10-09 11:31:16 - Action: read
+2025-10-09 11:31:19 - Action: read
+2025-10-09 11:32:05 - Action: read
+2025-10-09 11:32:05 - Action: read
+2025-10-09 11:32:50 - Action: read
+2025-10-09 11:32:50 - Action: read
+2025-10-09 11:33:50 - Action: read
+2025-10-09 11:33:50 - Action: read
+2025-10-09 11:34:09 - Action: read
+2025-10-09 11:34:09 - Action: read
+2025-10-09 11:42:22 - Action: read
+2025-10-09 11:44:41 - Action: read
+2025-10-09 11:44:41 - Action: read
+2025-10-09 11:44:43 - Action: read
+2025-10-09 11:44:50 - Action: read
+2025-10-09 11:44:50 - Action: read
+2025-10-09 11:45:40 - Action: read
+2025-10-09 11:45:40 - Action: read
+2025-10-09 11:46:16 - Action: read
+2025-10-09 11:46:16 - Action: read
+2025-10-09 11:46:39 - Action: read
+2025-10-09 11:46:39 - Action: read
+2025-10-09 11:46:43 - Action: read
+2025-10-09 11:46:56 - Action: get
+2025-10-09 11:46:59 - Action: create
+2025-10-09 11:46:59 - Data: Array
+(
+    [brand_name] => sf
+    [model] => sdvcddd
+    [quantity_available] => 120
+    [purchase_date] => 2025-10-07
+    [serial_no] => dvdv wdewdew
+    [su_no] => vdvdv
+    [remark] => dvsdvdv sd
+)
+
+2025-10-09 11:46:59 - Creating mouse with data: Array
+(
+    [brand_name] => sf
+    [model] => sdvcddd
+    [quantity_available] => 120
+    [purchase_date] => 2025-10-07
+    [serial_no] => dvdv wdewdew
+    [su_no] => vdvdv
+    [remark] => dvsdvdv sd
+)
+
+2025-10-09 11:46:59 - DB Connection: OK
+2025-10-09 11:46:59 - Table columns: id, brand_name, model, quantity_available, purchase_date, serial_no, su_no, remark, created_at
+2025-10-09 11:47:00 - Action: read
+2025-10-09 11:47:20 - Action: read
+2025-10-09 11:47:20 - Action: read
+2025-10-09 11:47:49 - Action: read
+2025-10-09 11:47:49 - Action: read
+2025-10-09 11:47:51 - Action: read
+2025-10-09 11:54:17 - Action: read
+2025-10-09 11:54:17 - Action: read
+2025-10-09 11:54:36 - Action: read
+2025-10-09 11:54:36 - Action: read
+2025-10-09 11:56:50 - Action: read
+2025-10-09 11:56:50 - Action: read
+2025-10-09 11:57:43 - Action: read
+2025-10-09 11:57:43 - Action: read
+2025-10-09 11:58:40 - Action: read
+2025-10-09 11:58:53 - Action: read
+2025-10-09 12:00:01 - Action: read
+2025-10-09 12:00:01 - Action: read
+2025-10-09 12:00:25 - Action: read
+2025-10-09 12:04:02 - Action: read
+2025-10-09 12:04:02 - Action: read
+2025-10-09 12:04:03 - Action: read
+2025-10-09 12:04:05 - Action: get
+2025-10-09 12:04:06 - Action: get
+2025-10-09 12:04:07 - Action: get
+2025-10-09 12:04:08 - Action: get
+2025-10-09 12:04:08 - Action: get
+2025-10-09 12:04:08 - Action: get
+2025-10-09 12:04:14 - Action: get
+2025-10-09 12:04:15 - Action: get
+2025-10-09 12:04:15 - Action: get
+2025-10-09 12:06:02 - Action: read
+2025-10-09 12:06:02 - Action: read
+2025-10-09 12:06:04 - Action: read
+2025-10-09 12:06:07 - Action: get
+2025-10-09 12:06:11 - Action: delete
+2025-10-09 12:06:12 - Action: read
+2025-10-09 12:06:15 - Action: delete
+2025-10-09 12:06:16 - Action: read
+2025-10-09 12:06:17 - Action: get
+2025-10-09 12:07:33 - Action: read
+2025-10-09 12:07:33 - Action: read
+2025-10-09 12:07:34 - Action: read
+2025-10-09 12:07:36 - Action: get
+2025-10-09 12:07:44 - Action: read
+2025-10-09 12:07:44 - Action: read
+2025-10-09 12:07:48 - Action: read
+2025-10-09 12:07:52 - Action: get
+2025-10-09 12:07:54 - Action: read
+2025-10-09 12:07:54 - Action: read
+2025-10-09 12:10:35 - Action: read
+2025-10-09 12:10:35 - Action: read
+2025-10-09 12:10:37 - Action: read
+2025-10-09 12:10:39 - Action: get
+2025-10-09 12:10:43 - Action: read
+2025-10-09 12:10:43 - Action: read
+2025-10-09 12:11:42 - Action: read
+2025-10-09 12:11:45 - Action: get
+2025-10-09 12:11:48 - Action: read
+2025-10-09 12:11:48 - Action: read
+2025-10-09 12:11:51 - Action: read
+2025-10-09 12:11:53 - Action: get
+2025-10-09 12:13:36 - Action: read
+2025-10-09 12:13:36 - Action: read
+2025-10-09 12:13:38 - Action: read
+2025-10-09 12:13:40 - Action: get
+2025-10-09 12:13:45 - Action: read
+2025-10-09 12:13:45 - Action: read
+2025-10-09 12:13:48 - Action: read
+2025-10-09 12:13:52 - Action: get
+2025-10-09 12:13:54 - Action: read
+2025-10-09 12:13:54 - Action: read
+2025-10-09 12:13:57 - Action: read
+2025-10-09 12:16:04 - Action: read
+2025-10-09 12:16:04 - Action: read
+2025-10-09 12:16:05 - Action: read
+2025-10-09 12:16:07 - Action: get
+2025-10-09 12:16:10 - Action: update
+2025-10-09 12:16:10 - Action: update
+2025-10-09 12:17:45 - Action: read
+2025-10-09 12:17:45 - Action: read
+2025-10-09 12:17:48 - Action: read
+2025-10-09 12:17:51 - Action: get
+2025-10-09 12:17:54 - Action: update
+2025-10-09 12:18:27 - Action: read
+2025-10-09 12:18:27 - Action: read
+2025-10-09 12:18:29 - Action: read
+2025-10-09 12:18:31 - Action: get
+2025-10-09 12:18:36 - Action: update
+2025-10-09 12:18:36 - Action: update
+2025-10-09 12:19:36 - Action: read
+2025-10-09 12:19:36 - Action: read
+2025-10-09 12:19:37 - Action: read
+2025-10-09 12:19:40 - Action: get
+2025-10-09 12:19:44 - Action: update
+2025-10-09 12:19:44 - Action: update
+2025-10-09 12:19:52 - Action: update
+2025-10-09 12:19:52 - Action: update
+2025-10-09 12:20:57 - Action: get
+2025-10-09 12:21:02 - Action: update
+2025-10-09 12:21:02 - Action: update
+2025-10-09 12:21:07 - Action: read
+2025-10-09 12:21:07 - Action: read
+2025-10-09 12:21:14 - Action: get
+2025-10-09 12:21:16 - Action: update
+2025-10-09 12:21:16 - Action: update
+2025-10-09 12:21:19 - Action: read
+2025-10-09 12:21:19 - Action: read
+2025-10-09 12:22:50 - Action: get
+2025-10-09 12:22:54 - Action: update
+2025-10-09 12:22:57 - Action: read
+2025-10-09 12:22:57 - Action: read
+2025-10-09 12:24:40 - Action: get
+2025-10-09 12:24:43 - Action: update
+2025-10-09 12:24:43 - Action: update
+2025-10-09 12:24:48 - Action: read
+2025-10-09 12:24:48 - Action: read
+2025-10-09 12:24:53 - Action: get
+2025-10-09 12:25:01 - Action: update
+2025-10-09 12:25:07 - Action: read
+2025-10-09 12:25:07 - Action: read
+2025-10-09 12:25:15 - Action: get
+2025-10-09 12:25:17 - Action: update
+2025-10-09 12:25:17 - Action: update
+2025-10-09 12:25:22 - Action: read
+2025-10-09 12:25:22 - Action: read
+2025-10-09 12:26:25 - Action: get
+2025-10-09 12:26:27 - Action: update
+2025-10-09 12:26:30 - Action: read
+2025-10-09 12:26:30 - Action: read
+2025-10-09 12:27:07 - Action: get
+2025-10-09 12:27:10 - Action: update
+2025-10-09 12:27:13 - Action: read
+2025-10-09 12:27:13 - Action: read
+2025-10-09 12:30:14 - Action: read
+2025-10-09 12:30:14 - Action: read
+2025-10-09 12:30:17 - Action: read
+2025-10-09 12:30:19 - Action: get
+2025-10-09 12:30:21 - Action: update
+2025-10-09 12:30:32 - Action: read
+2025-10-09 12:30:32 - Action: read
+2025-10-09 12:34:40 - Action: get
+2025-10-09 12:34:42 - Action: get
+2025-10-09 12:34:42 - Action: get
+2025-10-09 12:34:42 - Action: get
+2025-10-09 12:34:43 - Action: get
+2025-10-09 12:34:48 - Action: update
+2025-10-09 12:34:48 - Action: update
+2025-10-09 12:34:55 - Action: read
+2025-10-09 12:34:55 - Action: read
+2025-10-10 10:34:55 - Action: read
+2025-10-10 10:34:55 - Action: read
+2025-10-10 10:34:57 - Action: read
+2025-10-10 10:35:16 - Action: read
+2025-10-10 10:35:16 - Action: read
+2025-10-10 10:35:27 - Action: read
+2025-10-10 10:35:27 - Action: read
+2025-10-10 10:35:29 - Action: read
+2025-10-10 10:37:25 - Action: read
+2025-10-10 10:37:25 - Action: read
+2025-10-10 10:37:28 - Action: read
+2025-10-10 10:39:33 - Action: read
+2025-10-10 10:39:33 - Action: read
+2025-10-10 10:39:35 - Action: read
+2025-10-10 10:59:40 - Action: read
+2025-10-10 10:59:40 - Action: read
+2025-10-10 11:01:04 - Action: read
+2025-10-10 11:01:04 - Action: read
+2025-10-10 11:06:22 - Action: read
+2025-10-10 11:06:22 - Action: read
+2025-10-10 11:32:43 - Action: read
+2025-10-10 11:32:43 - Action: read
+2025-10-10 11:53:12 - Action: read
+2025-10-10 11:53:12 - Action: read
+2025-10-10 11:55:13 - Action: read
+2025-10-10 11:55:13 - Action: read
+2025-10-10 11:56:30 - Action: read
+2025-10-10 11:56:30 - Action: read
+2025-10-10 11:57:25 - Action: read
+2025-10-10 11:57:25 - Action: read
+2025-10-10 11:57:26 - Action: read
+2025-10-10 11:57:26 - Action: read
+2025-10-10 11:57:30 - Action: read
+2025-10-10 11:57:30 - Action: read
+2025-10-10 12:01:49 - Action: read
+2025-10-10 12:01:49 - Action: read
+2025-10-10 12:01:51 - Action: read
+2025-10-10 12:02:51 - Action: read
+2025-10-10 12:02:51 - Action: read
+2025-10-10 12:02:53 - Action: read
+2025-10-10 12:04:05 - Action: read
+2025-10-10 12:04:05 - Action: read
+2025-10-10 12:05:34 - Action: read
+2025-10-10 12:05:34 - Action: read
+2025-10-10 12:18:05 - Action: read
+2025-10-10 12:18:05 - Action: read
+2025-10-10 12:22:13 - Action: read
+2025-10-10 12:22:13 - Action: read
+2025-10-10 12:22:18 - Action: read
+2025-10-10 12:22:18 - Action: read
+2025-10-10 12:22:22 - Action: read
+2025-10-10 12:22:22 - Action: read
+2025-10-10 12:29:01 - Action: read
+2025-10-10 12:29:01 - Action: read
+2025-10-10 12:29:10 - Action: read
+2025-10-10 12:29:10 - Action: read
+2025-10-10 12:29:10 - Action: read
+2025-10-10 12:29:10 - Action: read
+2025-10-10 12:29:10 - Action: read
+2025-10-10 12:29:10 - Action: read
+2025-10-10 12:29:11 - Action: read
+2025-10-10 12:29:11 - Action: read
+2025-10-10 12:29:11 - Action: read
+2025-10-10 12:29:11 - Action: read
+2025-10-10 12:29:11 - Action: read
+2025-10-10 12:29:11 - Action: read
+2025-10-10 12:29:11 - Action: read
+2025-10-10 12:29:11 - Action: read
+2025-10-10 12:29:11 - Action: read
+2025-10-10 12:29:11 - Action: read
+2025-10-10 12:29:11 - Action: read
+2025-10-10 12:29:11 - Action: read
+2025-10-10 12:29:11 - Action: read
+2025-10-10 12:29:11 - Action: read
+2025-10-10 12:29:11 - Action: read
+2025-10-10 12:29:11 - Action: read
+2025-10-10 12:29:12 - Action: read
+2025-10-10 12:29:12 - Action: read
+2025-10-10 12:29:12 - Action: read
+2025-10-10 12:29:12 - Action: read
+2025-10-10 12:29:12 - Action: read
+2025-10-10 12:29:12 - Action: read
+2025-10-10 12:29:12 - Action: read
+2025-10-10 12:29:12 - Action: read
+2025-10-10 12:29:12 - Action: read
+2025-10-10 12:29:12 - Action: read
+2025-10-10 12:29:12 - Action: read
+2025-10-10 12:29:12 - Action: read
+2025-10-10 12:29:12 - Action: read
+2025-10-10 12:29:12 - Action: read
+2025-10-10 12:29:13 - Action: read
+2025-10-10 12:29:13 - Action: read
+2025-10-10 12:29:13 - Action: read
+2025-10-10 12:29:13 - Action: read
+2025-10-10 12:29:13 - Action: read
+2025-10-10 12:29:13 - Action: read
+2025-10-10 12:29:13 - Action: read
+2025-10-10 12:29:13 - Action: read
+2025-10-10 12:29:13 - Action: read
+2025-10-10 12:29:13 - Action: read
+2025-10-10 12:29:14 - Action: read
+2025-10-10 12:29:14 - Action: read
+2025-10-10 12:29:14 - Action: read
+2025-10-10 12:29:14 - Action: read
+2025-10-10 12:29:14 - Action: read
+2025-10-10 12:29:14 - Action: read
+2025-10-10 12:29:14 - Action: read
+2025-10-10 12:29:14 - Action: read
+2025-10-10 12:29:14 - Action: read
+2025-10-10 12:29:14 - Action: read
+2025-10-10 12:29:14 - Action: read
+2025-10-10 12:29:14 - Action: read
+2025-10-10 12:29:15 - Action: read
+2025-10-10 12:29:15 - Action: read
+2025-10-10 12:29:15 - Action: read
+2025-10-10 12:29:15 - Action: read
+2025-10-10 12:29:15 - Action: read
+2025-10-10 12:29:15 - Action: read
+2025-10-10 12:29:15 - Action: read
+2025-10-10 12:29:15 - Action: read
+2025-10-10 12:29:15 - Action: read
+2025-10-10 12:29:15 - Action: read
+2025-10-10 12:29:16 - Action: read
+2025-10-10 12:29:16 - Action: read
+2025-10-10 12:29:16 - Action: read
+2025-10-10 12:29:16 - Action: read
+2025-10-14 13:17:37 - Action: read
+2025-10-14 13:17:37 - Action: read
+2025-10-14 13:17:41 - Action: read
+2025-10-14 13:22:09 - Action: read
+2025-10-14 13:22:09 - Action: read
+2025-10-14 13:22:59 - Action: read
+2025-10-14 13:23:00 - Action: read
+2025-10-14 13:23:37 - Action: read
+2025-10-14 13:23:37 - Action: read
+2025-10-14 14:04:07 - Action: read
+2025-10-14 14:04:07 - Action: read
+2025-10-14 14:13:11 - Action: read
+2025-10-14 14:13:11 - Action: read
+2025-10-14 14:13:49 - Action: read
+2025-10-14 14:13:49 - Action: read
+2025-10-16 08:14:04 - Action: read
+2025-10-16 08:14:04 - Action: read
+2025-10-16 10:23:04 - Action: read
+2025-10-16 10:23:04 - Action: read
+2025-10-16 10:23:15 - Action: read
+2025-10-16 10:23:15 - Action: read
+2025-10-16 10:23:18 - Action: read
+2025-10-16 10:23:18 - Action: read
+2025-10-16 10:24:47 - Action: read
+2025-10-16 10:24:47 - Action: read
+2025-10-16 10:24:58 - Action: read
+2025-10-16 10:24:58 - Action: read
+2025-10-16 10:30:30 - Action: read
+2025-10-16 10:30:30 - Action: read
+2025-10-16 10:31:17 - Action: read
+2025-10-16 10:31:17 - Action: read
+2025-10-16 10:31:29 - Action: read
+2025-10-16 10:31:29 - Action: read
+2025-10-16 10:31:32 - Action: read
+2025-10-16 10:31:32 - Action: read
+2025-10-16 10:31:34 - Action: read
+2025-10-16 10:31:34 - Action: read
+2025-10-16 10:32:21 - Action: read
+2025-10-16 10:32:21 - Action: read
+2025-10-16 10:32:35 - Action: read
+2025-10-16 10:32:35 - Action: read
+2025-10-16 10:32:38 - Action: read
+2025-10-16 10:32:38 - Action: read
+2025-10-16 10:36:21 - Action: read
+2025-10-16 10:36:21 - Action: read
+2025-10-16 10:38:19 - Action: read
+2025-10-16 10:38:19 - Action: read
+2025-10-16 10:39:32 - Action: read
+2025-10-16 10:39:32 - Action: read
+2025-10-16 10:39:32 - Action: read
+2025-10-16 10:39:32 - Action: read
+2025-10-16 10:39:33 - Action: read
+2025-10-16 10:39:33 - Action: read
+2025-10-16 10:39:36 - Action: read
+2025-10-16 10:39:36 - Action: read
+2025-10-16 10:42:41 - Action: read
+2025-10-16 10:42:41 - Action: read
+2025-10-16 10:42:48 - Action: read
+2025-10-16 10:42:48 - Action: read
+2025-10-16 10:42:49 - Action: read
+2025-10-16 10:42:49 - Action: read
+2025-10-16 10:42:50 - Action: read
+2025-10-16 10:42:50 - Action: read
+2025-10-16 10:42:51 - Action: read
+2025-10-16 10:42:51 - Action: read
+2025-10-16 10:43:10 - Action: read
+2025-10-16 10:43:10 - Action: read
+2025-10-16 10:44:43 - Action: read
+2025-10-16 10:44:43 - Action: read
+2025-10-16 10:45:16 - Action: read
+2025-10-16 10:45:16 - Action: read
+2025-10-16 10:45:17 - Action: read
+2025-10-16 10:45:17 - Action: read
+2025-10-16 10:45:20 - Action: read
+2025-10-16 10:45:20 - Action: read
+2025-10-16 10:45:30 - Action: read
+2025-10-16 10:45:30 - Action: read
+2025-10-16 10:46:05 - Action: read
+2025-10-16 10:46:05 - Action: read
+2025-10-16 11:23:07 - Action: read
+2025-10-16 11:43:29 - Action: read
+2025-10-16 11:43:29 - Action: read
+2025-10-16 11:43:39 - Action: read
+2025-10-16 11:43:39 - Action: read
+2025-10-16 11:43:42 - Action: read
+2025-10-16 11:43:42 - Action: read
+2025-10-16 11:44:16 - Action: read
+2025-10-16 11:44:16 - Action: read
+2025-10-16 11:46:31 - Action: read
+2025-10-16 11:46:31 - Action: read
+2025-10-16 11:47:08 - Action: read
+2025-10-16 11:47:08 - Action: read
+2025-10-16 11:47:33 - Action: read
+2025-10-16 11:47:33 - Action: read
+2025-10-16 11:49:39 - Action: read
+2025-10-16 11:49:39 - Action: read
+2025-10-16 11:51:16 - Action: read
+2025-10-16 11:51:16 - Action: read
+2025-10-16 11:51:55 - Action: read
+2025-10-16 11:51:55 - Action: read
+2025-10-16 11:53:42 - Action: read
+2025-10-16 11:53:42 - Action: read
+2025-10-16 11:57:02 - Action: read
+2025-10-16 11:57:02 - Action: read
+2025-10-16 11:58:46 - Action: read
+2025-10-16 11:58:46 - Action: read
+2025-10-16 12:09:20 - Action: read
+2025-10-16 12:09:20 - Action: read
+2025-10-16 12:09:25 - Action: read
+2025-10-16 12:09:25 - Action: read
+2025-10-16 12:09:25 - Action: read
+2025-10-16 12:09:25 - Action: read
+2025-10-16 12:09:39 - Action: read
+2025-10-16 12:09:39 - Action: read
+2025-10-16 12:10:25 - Action: read
+2025-10-16 12:10:25 - Action: read
+2025-10-16 12:14:51 - Action: read
+2025-10-16 12:14:51 - Action: read
+2025-10-16 12:19:12 - Action: read
+2025-10-16 12:19:12 - Action: read
+2025-10-16 12:19:51 - Action: read
+2025-10-16 12:19:51 - Action: read
+2025-10-16 12:28:28 - Action: read
+2025-10-16 12:28:28 - Action: read
+2025-10-17 07:38:46 - Action: read
+2025-10-17 07:38:46 - Action: read
+2025-10-17 07:39:01 - Action: read
+2025-10-17 07:39:01 - Action: read
+2025-10-17 07:39:04 - Action: read
+2025-10-17 07:39:04 - Action: read
+2025-10-17 07:39:22 - Action: read
+2025-10-17 07:39:22 - Action: read
+2025-10-17 07:40:26 - Action: read
+2025-10-17 07:40:26 - Action: read
+2025-10-17 07:41:10 - Action: read
+2025-10-17 07:41:10 - Action: read
+2025-10-17 07:46:29 - Action: read
+2025-10-17 07:46:29 - Action: read
+2025-10-17 07:49:41 - Action: read
+2025-10-17 07:49:41 - Action: read
+2025-10-17 07:54:12 - Action: read
+2025-10-17 07:54:12 - Action: read
+2025-10-17 07:55:02 - Action: read
+2025-10-17 07:55:02 - Action: read
+2025-10-17 07:55:47 - Action: read
+2025-10-17 07:55:47 - Action: read
+2025-10-17 07:58:20 - Action: read
+2025-10-17 07:58:20 - Action: read
+2025-10-17 08:03:31 - Action: read
+2025-10-17 08:03:31 - Action: read
+2025-10-17 08:15:14 - Action: read
+2025-10-17 08:15:34 - Action: read
+2025-10-17 08:15:34 - Action: read
+2025-10-17 08:21:53 - Action: read
+2025-10-17 08:21:53 - Action: read
+2025-10-17 08:22:17 - Action: read
+2025-10-17 08:49:46 - Action: read
+2025-10-17 08:49:46 - Action: read
+2025-10-17 09:10:22 - Action: read
+2025-10-17 09:10:22 - Action: read
+2025-10-17 09:10:39 - Action: read
+2025-10-17 09:10:39 - Action: read
+2025-10-17 09:10:59 - Action: read
+2025-10-17 09:10:59 - Action: read
+2025-10-17 10:50:29 - Action: read
+2025-10-17 10:50:29 - Action: read
+2025-10-17 11:35:22 - Action: read
+2025-10-17 11:35:22 - Action: read
+2025-10-17 11:36:55 - Action: read
+2025-10-17 11:36:55 - Action: read
+2025-10-17 11:38:32 - Action: read
+2025-10-17 11:39:15 - Action: read
+2025-10-17 11:54:23 - Action: read
+2025-10-17 11:54:23 - Action: read
+2025-10-17 11:55:12 - Action: read
+2025-10-17 11:55:12 - Action: read
+2025-10-17 12:16:14 - Action: read
+2025-10-17 12:16:14 - Action: read
+2025-10-17 12:16:44 - Action: read
+2025-10-17 12:16:44 - Action: read
+2025-10-17 12:17:35 - Action: read
+2025-10-17 12:17:41 - Action: read
+2025-10-17 12:31:34 - Action: read
+2025-10-22 11:26:14 - Action: read
+2025-10-22 11:26:14 - Action: read
+2025-10-22 11:26:27 - Action: read
+2025-10-22 11:26:27 - Action: read
+2025-10-22 11:28:16 - Action: read
+2025-10-22 11:28:16 - Action: read
+2025-10-22 11:30:56 - Action: read
+2025-10-22 11:30:56 - Action: read
+2025-10-22 11:32:58 - Action: read
+2025-10-22 11:32:58 - Action: read
+2025-10-22 11:33:26 - Action: read
+2025-10-22 11:33:26 - Action: read
+2025-10-22 11:35:27 - Action: read
+2025-10-22 11:35:27 - Action: read
+2025-10-22 11:35:34 - Action: read
+2025-10-22 11:35:34 - Action: read
+2025-10-22 11:39:09 - Action: read
+2025-10-22 11:39:09 - Action: read
+2025-10-22 11:39:49 - Action: read
+2025-10-22 11:39:49 - Action: read
+2025-10-22 11:42:29 - Action: read
+2025-10-22 11:42:29 - Action: read
+2025-10-22 11:45:26 - Action: read
+2025-10-22 11:45:26 - Action: read
+2025-10-22 11:47:24 - Action: read
+2025-10-22 11:47:24 - Action: read
+2025-10-22 11:47:25 - Action: read
+2025-10-22 11:47:25 - Action: read
+2025-10-22 11:47:25 - Action: read
+2025-10-22 11:47:25 - Action: read
+2025-10-22 11:47:26 - Action: read
+2025-10-22 11:47:26 - Action: read
+2025-10-22 11:47:26 - Action: read
+2025-10-22 11:47:26 - Action: read
+2025-10-22 11:47:27 - Action: read
+2025-10-22 11:47:27 - Action: read
+2025-10-22 11:47:27 - Action: read
+2025-10-22 11:47:27 - Action: read
+2025-10-22 11:47:27 - Action: read
+2025-10-22 11:47:27 - Action: read
+2025-10-22 11:50:08 - Action: read
+2025-10-22 11:50:08 - Action: read
+2025-10-22 11:57:57 - Action: read
+2025-10-22 11:57:57 - Action: read
+2025-10-22 11:58:40 - Action: read
+2025-10-22 11:58:40 - Action: read
+2025-10-22 11:58:50 - Action: read
+2025-10-22 11:58:50 - Action: read
+2025-10-22 11:59:58 - Action: read
+2025-10-22 11:59:58 - Action: read
+2025-10-22 12:04:09 - Action: read
+2025-10-22 12:04:09 - Action: read
+2025-10-22 12:04:40 - Action: read
+2025-10-22 12:04:40 - Action: read
+2025-10-22 12:04:56 - Action: read
+2025-10-22 12:06:50 - Action: read
+2025-10-22 12:06:50 - Action: read
+2025-10-22 12:11:04 - Action: read
+2025-10-22 12:11:04 - Action: read
+2025-10-22 12:11:18 - Action: read
+2025-10-22 12:11:18 - Action: read
+2025-10-22 12:11:26 - Action: read
+2025-10-22 12:12:22 - Action: read
+2025-10-22 12:12:22 - Action: read
+2025-10-22 12:12:27 - Action: read
+2025-10-22 12:12:27 - Action: read
+2025-10-22 12:17:39 - Action: read
+2025-10-22 12:17:39 - Action: read
+2025-10-22 12:18:06 - Action: read
+2025-10-22 12:18:06 - Action: read
+2025-10-22 12:18:24 - Action: read
+2025-10-22 12:22:31 - Action: read
+2025-10-22 12:22:31 - Action: read
+2025-10-22 12:22:39 - Action: read
+2025-10-22 12:22:39 - Action: read
+2025-10-22 12:22:40 - Action: read
+2025-10-22 12:22:40 - Action: read
+2025-10-22 12:22:50 - Action: read
+2025-10-22 12:22:50 - Action: read
+2025-10-22 12:25:02 - Action: read
+2025-10-22 12:35:44 - Action: read
+2025-10-22 12:35:44 - Action: read
+2025-10-22 12:35:47 - Action: read
+2025-10-23 10:15:13 - Action: read
+2025-10-23 10:15:13 - Action: read
+2025-10-23 10:15:19 - Action: read
+2025-10-23 10:19:15 - Action: read
+2025-10-23 10:19:15 - Action: read
+2025-10-23 10:20:01 - Action: read
+2025-10-23 10:20:01 - Action: read
+2025-10-23 10:20:03 - Action: read
+2025-10-23 10:20:03 - Action: read
+2025-10-23 10:24:10 - Action: read
+2025-10-23 10:24:10 - Action: read
+2025-10-23 10:24:47 - Action: read
+2025-10-23 10:24:47 - Action: read
+2025-10-23 10:24:49 - Action: read
+2025-10-23 10:24:49 - Action: read
+2025-10-23 10:25:14 - Action: read
+2025-10-23 10:25:14 - Action: read
+2025-10-23 10:26:55 - Action: read
+2025-10-23 10:26:55 - Action: read
+2025-10-23 10:27:33 - Action: read
+2025-10-23 10:27:33 - Action: read
+2025-10-23 10:28:44 - Action: read
+2025-10-23 10:28:44 - Action: read
+2025-10-23 10:29:09 - Action: read
+2025-10-23 10:29:09 - Action: read
+2025-10-23 10:29:30 - Action: read
+2025-10-23 10:29:30 - Action: read
+2025-10-23 10:29:31 - Action: read
+2025-10-23 10:29:31 - Action: read
+2025-10-23 10:29:37 - Action: read
+2025-10-23 10:30:39 - Action: read
+2025-10-23 10:30:39 - Action: read
+2025-10-23 10:30:42 - Action: read
+2025-10-23 10:31:09 - Action: read
+2025-10-23 10:31:09 - Action: read
+2025-10-23 10:31:34 - Action: read
+2025-10-23 10:31:34 - Action: read
+2025-10-23 10:31:40 - Action: read
+2025-10-23 10:31:40 - Action: read
+2025-10-23 10:33:35 - Action: read
+2025-10-23 10:33:35 - Action: read
+2025-10-23 10:34:37 - Action: read
+2025-10-23 10:34:37 - Action: read
+2025-10-23 10:35:23 - Action: read
+2025-10-23 10:35:23 - Action: read
+2025-10-23 10:35:43 - Action: read
+2025-10-23 10:35:43 - Action: read
+2025-10-23 10:35:50 - Action: read
+2025-10-23 10:36:47 - Action: read
+2025-10-23 10:36:47 - Action: read
+2025-10-23 10:36:53 - Action: read
+2025-10-23 10:38:47 - Action: read
+2025-10-23 10:38:47 - Action: read
+2025-10-23 11:14:11 - Action: read
+2025-10-23 11:14:11 - Action: read
+2025-10-23 11:14:25 - Action: read
+2025-10-23 11:39:06 - Action: read
+2025-10-23 11:39:14 - Action: get
+2025-10-23 11:39:19 - Action: create
+2025-10-23 11:39:19 - Action: update
+2025-10-23 11:39:19 - Data: Array
+(
+    [brand_name] => sfwsd ggggg
+    [model] => sdvcddd
+    [quantity_available] => 120
+    [purchase_date] => 2025-10-07
+    [serial_no] => dvdvdc
+    [su_no] => vdvdv
+    [remark] => dvs dfn dsvc
+)
+
+2025-10-23 11:39:19 - Creating mouse with data: Array
+(
+    [brand_name] => sfwsd ggggg
+    [model] => sdvcddd
+    [quantity_available] => 120
+    [purchase_date] => 2025-10-07
+    [serial_no] => dvdvdc
+    [su_no] => vdvdv
+    [remark] => dvs dfn dsvc
+)
+
+2025-10-23 11:39:19 - DB Connection: OK
+2025-10-23 11:39:19 - Table columns: id, brand_name, model, quantity_available, purchase_date, serial_no, su_no, remark, created_at
+2025-10-23 11:39:23 - Action: read
+2025-10-23 11:39:23 - Action: read
+2025-10-23 11:42:50 - Action: get
+2025-10-23 11:42:57 - Action: create
+2025-10-23 11:42:57 - Data: Array
+(
+    [brand_name] => sfwsd ggggg wdfddef
+    [model] => sdvcddd
+    [quantity_available] => 120
+    [purchase_date] => 2025-10-07
+    [serial_no] => dvdvdc
+    [su_no] => vdvdv
+    [remark] => dvs dfn dsvc
+)
+
+2025-10-23 11:42:57 - Creating mouse with data: Array
+(
+    [brand_name] => sfwsd ggggg wdfddef
+    [model] => sdvcddd
+    [quantity_available] => 120
+    [purchase_date] => 2025-10-07
+    [serial_no] => dvdvdc
+    [su_no] => vdvdv
+    [remark] => dvs dfn dsvc
+)
+
+2025-10-23 11:42:57 - DB Connection: OK
+2025-10-23 11:42:57 - Action: update
+2025-10-23 11:42:57 - Table columns: id, brand_name, model, quantity_available, purchase_date, serial_no, su_no, remark, created_at
+2025-10-23 11:43:00 - Action: read
+2025-10-23 11:43:00 - Action: read
+2025-10-23 11:43:04 - Action: delete
+2025-10-23 11:43:05 - Action: read
+2025-10-23 11:43:07 - Action: delete
+2025-10-23 11:43:08 - Action: read
+2025-10-23 11:43:29 - Action: read
+2025-10-23 12:11:43 - Action: read
+2025-10-23 12:11:43 - Action: read
+2025-10-23 12:11:46 - Action: read
+2025-10-23 12:11:49 - Action: get
+2025-10-23 12:11:50 - Action: get
+2025-10-23 12:11:56 - Action: update
+2025-10-23 12:11:56 - Action: create
+2025-10-23 12:11:56 - Data: Array
+(
+    [brand_name] => sfwsd
+    [model] => sdvcddd
+    [quantity_available] => 120
+    [purchase_date] => 2025-10-07
+    [serial_no] => dvdvdc
+    [su_no] => vdvdv
+    [remark] => dvs dfn dsvc
+)
+
+2025-10-23 12:11:56 - Creating mouse with data: Array
+(
+    [brand_name] => sfwsd
+    [model] => sdvcddd
+    [quantity_available] => 120
+    [purchase_date] => 2025-10-07
+    [serial_no] => dvdvdc
+    [su_no] => vdvdv
+    [remark] => dvs dfn dsvc
+)
+
+2025-10-23 12:11:56 - DB Connection: OK
+2025-10-23 12:11:56 - Table columns: id, brand_name, model, quantity_available, purchase_date, serial_no, su_no, remark, created_at
+2025-10-23 12:11:58 - Action: read
+2025-10-23 12:11:58 - Action: read
+2025-10-23 12:12:03 - Action: delete
+2025-10-23 12:12:04 - Action: read
+2025-10-23 12:23:18 - Action: read
+2025-10-23 12:23:18 - Action: read
+2025-10-23 12:23:22 - Action: read
+2025-10-23 12:23:24 - Action: get
+2025-10-23 12:23:28 - Action: create
+2025-10-23 12:23:28 - Data: Array
+(
+    [brand_name] => sfwsd cdc
+    [model] => sdvcddd
+    [quantity_available] => 120
+    [purchase_date] => 2025-10-07
+    [serial_no] => dvdvdc
+    [su_no] => vdvdv
+    [remark] => dvs dfn dsvc
+)
+
+2025-10-23 12:23:28 - Creating mouse with data: Array
+(
+    [brand_name] => sfwsd cdc
+    [model] => sdvcddd
+    [quantity_available] => 120
+    [purchase_date] => 2025-10-07
+    [serial_no] => dvdvdc
+    [su_no] => vdvdv
+    [remark] => dvs dfn dsvc
+)
+
+2025-10-23 12:23:28 - DB Connection: OK
+2025-10-23 12:23:28 - Table columns: id, brand_name, model, quantity_available, purchase_date, serial_no, su_no, remark, created_at
+2025-10-23 12:23:28 - Action: update
+2025-10-23 12:23:31 - Action: read
+2025-10-23 12:23:31 - Action: read
+2025-10-23 12:23:39 - Action: get
+2025-10-23 12:23:43 - Action: create
+2025-10-23 12:23:43 - Action: update
+2025-10-23 12:23:43 - Data: Array
+(
+    [brand_name] => sfwsd cdc sc
+    [model] => sdvcddd
+    [quantity_available] => 120
+    [purchase_date] => 2025-10-07
+    [serial_no] => dvdvdc
+    [su_no] => vdvdv
+    [remark] => dvs dfn dsvc
+)
+
+2025-10-23 12:23:43 - Creating mouse with data: Array
+(
+    [brand_name] => sfwsd cdc sc
+    [model] => sdvcddd
+    [quantity_available] => 120
+    [purchase_date] => 2025-10-07
+    [serial_no] => dvdvdc
+    [su_no] => vdvdv
+    [remark] => dvs dfn dsvc
+)
+
+2025-10-23 12:23:43 - DB Connection: OK
+2025-10-23 12:23:43 - Table columns: id, brand_name, model, quantity_available, purchase_date, serial_no, su_no, remark, created_at
+2025-10-23 12:23:45 - Action: read
+2025-10-23 12:23:45 - Action: read
+2025-10-23 12:23:48 - Action: delete
+2025-10-23 12:23:50 - Action: read
+2025-10-23 12:23:52 - Action: delete
+2025-10-23 12:23:53 - Action: read
+2025-10-23 12:23:54 - Action: delete
+2025-10-23 12:23:55 - Action: read
+2025-10-23 12:27:50 - Action: read
+2025-10-23 12:27:50 - Action: read
+2025-10-23 12:27:55 - Action: read
+2025-10-23 12:27:55 - Action: read
+2025-10-23 12:27:57 - Action: read
+2025-10-23 12:27:57 - Action: read
+2025-10-23 12:28:00 - Action: read
+2025-10-23 12:28:05 - Action: get
+2025-10-23 12:28:09 - Action: update
+2025-10-23 12:28:09 - Data: Array
+(
+    [brand_name] => Logitech
+    [model] => M185
+    [quantity_available] => 10
+    [purchase_date] => 2024-09-10
+    [serial_no] => SN12345
+    [su_no] => SU001
+    [remark] => Wireless mouse for office use
+)
+
+2025-10-23 12:28:09 - Creating mouse with data: Array
+(
+    [brand_name] => Logitech
+    [model] => M185
+    [quantity_available] => 10
+    [purchase_date] => 2024-09-10
+    [serial_no] => SN12345
+    [su_no] => SU001
+    [remark] => Wireless mouse for office use
+)
+
+2025-10-23 12:28:09 - DB Connection: OK
+2025-10-23 12:28:09 - Table columns: id, brand_name, model, quantity_available, purchase_date, serial_no, su_no, remark, created_at
+2025-10-23 12:28:12 - Action: read
+2025-10-23 12:28:12 - Action: read
+2025-10-23 17:44:32 - Action: read
+2025-10-23 17:44:32 - Action: read
+2025-10-23 17:44:34 - Action: read
+2025-10-23 17:44:52 - Action: read
+2025-10-23 17:44:54 - Action: get
+2025-10-23 17:44:59 - Action: update
+2025-10-23 17:44:59 - Action: create
+2025-10-23 17:44:59 - Data: Array
+(
+    [brand_name] => Logitech gg
+    [model] => M185
+    [quantity_available] => 10
+    [purchase_date] => 2024-09-10
+    [serial_no] => SN12345
+    [su_no] => SU001
+    [remark] => Wireless mouse for office use
+)
+
+2025-10-23 17:44:59 - Creating mouse with data: Array
+(
+    [brand_name] => Logitech gg
+    [model] => M185
+    [quantity_available] => 10
+    [purchase_date] => 2024-09-10
+    [serial_no] => SN12345
+    [su_no] => SU001
+    [remark] => Wireless mouse for office use
+)
+
+2025-10-23 17:44:59 - DB Connection: OK
+2025-10-23 17:44:59 - Table columns: id, brand_name, model, quantity_available, purchase_date, serial_no, su_no, remark, created_at
+2025-10-23 17:45:00 - Action: read
+2025-10-23 17:45:00 - Action: read
+2025-10-23 17:45:05 - Action: get
+2025-10-23 17:45:09 - Action: update
+2025-10-23 17:45:09 - Action: create
+2025-10-23 17:45:09 - Data: Array
+(
+    [brand_name] => Logitech ggf
+    [model] => M185
+    [quantity_available] => 10
+    [purchase_date] => 2024-09-10
+    [serial_no] => SN12345
+    [su_no] => SU001
+    [remark] => Wireless mouse for office use
+)
+
+2025-10-23 17:45:09 - Creating mouse with data: Array
+(
+    [brand_name] => Logitech ggf
+    [model] => M185
+    [quantity_available] => 10
+    [purchase_date] => 2024-09-10
+    [serial_no] => SN12345
+    [su_no] => SU001
+    [remark] => Wireless mouse for office use
+)
+
+2025-10-23 17:45:09 - DB Connection: OK
+2025-10-23 17:45:09 - Table columns: id, brand_name, model, quantity_available, purchase_date, serial_no, su_no, remark, created_at
+2025-10-23 17:45:11 - Action: read
+2025-10-23 17:45:11 - Action: read
+2025-10-23 17:46:16 - Action: get
+2025-10-23 17:46:20 - Action: update
+2025-10-23 17:46:20 - Action: create
+2025-10-23 17:46:20 - Data: Array
+(
+    [brand_name] => Logitech ggfgg
+    [model] => M185
+    [quantity_available] => 10
+    [purchase_date] => 2024-09-10
+    [serial_no] => SN12345
+    [su_no] => SU001
+    [remark] => Wireless mouse for office use
+)
+
+2025-10-23 17:46:20 - Creating mouse with data: Array
+(
+    [brand_name] => Logitech ggfgg
+    [model] => M185
+    [quantity_available] => 10
+    [purchase_date] => 2024-09-10
+    [serial_no] => SN12345
+    [su_no] => SU001
+    [remark] => Wireless mouse for office use
+)
+
+2025-10-23 17:46:20 - DB Connection: OK
+2025-10-23 17:46:20 - Table columns: id, brand_name, model, quantity_available, purchase_date, serial_no, su_no, remark, created_at
+2025-10-23 17:46:22 - Action: read
+2025-10-23 17:46:22 - Action: read
+2025-10-23 17:57:05 - Action: read
+2025-10-23 17:57:05 - Action: read
+2025-10-23 17:57:11 - Action: read
+2025-10-23 17:57:11 - Action: read
+2025-10-23 17:57:15 - Action: read
+2025-10-23 17:57:18 - Action: get
+2025-10-23 17:57:23 - Action: create
+2025-10-23 17:57:23 - Data: Array
+(
+    [brand_name] => Logitech ggaaaa
+    [model] => M185
+    [quantity_available] => 10
+    [purchase_date] => 2024-09-10
+    [serial_no] => SN12345
+    [su_no] => SU001
+    [remark] => Wireless mouse for office use
+)
+
+2025-10-23 17:57:23 - Creating mouse with data: Array
+(
+    [brand_name] => Logitech ggaaaa
+    [model] => M185
+    [quantity_available] => 10
+    [purchase_date] => 2024-09-10
+    [serial_no] => SN12345
+    [su_no] => SU001
+    [remark] => Wireless mouse for office use
+)
+
+2025-10-23 17:57:23 - DB Connection: OK
+2025-10-23 17:57:23 - Action: update
+2025-10-23 17:57:23 - Table columns: id, brand_name, model, quantity_available, purchase_date, serial_no, su_no, remark, created_at
+2025-10-23 17:57:26 - Action: read
+2025-10-23 17:57:26 - Action: read
+2025-10-23 19:40:29 - Action: read
+2025-10-23 19:40:29 - Action: read
+2025-10-23 19:40:38 - Action: read
+2025-10-23 19:40:38 - Action: read
+2025-10-23 19:40:45 - Action: read
+2025-10-23 19:40:55 - Action: delete
+2025-10-23 19:40:57 - Action: read
+2025-10-23 19:41:01 - Action: delete
+2025-10-23 19:41:02 - Action: read
+2025-11-06 07:28:48 - Action: read
+2025-11-06 07:28:48 - Action: read
+2025-11-06 07:29:01 - Action: read
+2025-11-06 07:34:10 - Action: read
+2025-11-06 07:34:16 - Action: get
+2025-11-06 07:34:23 - Action: update
+2025-11-06 07:34:23 - Action: create
+2025-11-06 07:34:23 - Data: Array
+(
+    [brand_name] => Logitech ggfgggggggg
+    [model] => M185
+    [quantity_available] => 10
+    [purchase_date] => 2024-09-10
+    [serial_no] => SN12345
+    [su_no] => SU001
+    [remark] => Wireless mouse for office use
+)
+
+2025-11-06 07:34:23 - Creating mouse with data: Array
+(
+    [brand_name] => Logitech ggfgggggggg
+    [model] => M185
+    [quantity_available] => 10
+    [purchase_date] => 2024-09-10
+    [serial_no] => SN12345
+    [su_no] => SU001
+    [remark] => Wireless mouse for office use
+)
+
+2025-11-06 07:34:23 - DB Connection: OK
+2025-11-06 07:34:23 - Table columns: id, brand_name, model, quantity_available, purchase_date, serial_no, su_no, remark, created_at
+2025-11-06 07:34:27 - Action: read
+2025-11-06 07:34:27 - Action: read
+2025-11-06 07:46:50 - Action: read
+2025-11-06 07:46:50 - Action: read
+2025-11-06 07:46:56 - Action: read
+2025-11-06 07:46:59 - Action: get
+2025-11-06 07:47:09 - Action: update
+2025-11-06 07:47:09 - Action: create
+2025-11-06 07:47:09 - Data: Array
+(
+    [brand_name] => Logitech ggfgggggggg
+    [model] => M444
+    [quantity_available] => 10
+    [purchase_date] => 2024-09-10
+    [serial_no] => SN12345
+    [su_no] => SU001
+    [remark] => Wireless mouse for office use
+)
+
+2025-11-06 07:47:09 - Creating mouse with data: Array
+(
+    [brand_name] => Logitech ggfgggggggg
+    [model] => M444
+    [quantity_available] => 10
+    [purchase_date] => 2024-09-10
+    [serial_no] => SN12345
+    [su_no] => SU001
+    [remark] => Wireless mouse for office use
+)
+
+2025-11-06 07:47:09 - DB Connection: OK
+2025-11-06 07:47:09 - Table columns: id, brand_name, model, quantity_available, purchase_date, serial_no, su_no, remark, created_at
+2025-11-06 07:47:12 - Action: read
+2025-11-06 07:47:12 - Action: read
+2025-11-06 07:57:38 - Action: read
+2025-11-06 07:57:38 - Action: read
+2025-11-06 07:57:42 - Action: read
+2025-11-06 07:57:45 - Action: get
+2025-11-06 07:57:52 - Action: update
+2025-11-06 07:57:52 - Action: create
+2025-11-06 07:57:52 - Data: Array
+(
+    [brand_name] => Logitech
+    [model] => M444
+    [quantity_available] => 10
+    [purchase_date] => 2024-09-10
+    [serial_no] => SN12345
+    [su_no] => SU001
+    [remark] => Wireless mouse for office use
+)
+
+2025-11-06 07:57:52 - Creating mouse with data: Array
+(
+    [brand_name] => Logitech
+    [model] => M444
+    [quantity_available] => 10
+    [purchase_date] => 2024-09-10
+    [serial_no] => SN12345
+    [su_no] => SU001
+    [remark] => Wireless mouse for office use
+)
+
+2025-11-06 07:57:52 - DB Connection: OK
+2025-11-06 07:57:52 - Table columns: id, brand_name, model, quantity_available, purchase_date, serial_no, su_no, remark, created_at
+2025-11-06 07:57:55 - Action: read
+2025-11-06 07:57:55 - Action: read
+2025-11-06 08:02:33 - Action: read
+2025-11-06 08:02:33 - Action: read
+2025-11-06 08:02:38 - Action: read
+2025-11-06 08:02:43 - Action: get
+2025-11-06 08:02:45 - Action: get
+2025-11-06 08:02:46 - Action: get
+2025-11-06 08:02:46 - Action: get
+2025-11-06 08:02:46 - Action: get
+2025-11-06 08:02:47 - Action: get
+2025-11-06 08:02:47 - Action: get
+2025-11-06 08:02:47 - Action: get
+2025-11-06 08:02:47 - Action: get
+2025-11-06 08:02:50 - Action: get
+2025-11-06 08:03:16 - Action: read
+2025-11-06 08:03:16 - Action: read
+2025-11-06 08:03:22 - Action: read
+2025-11-06 08:03:28 - Action: get
+2025-11-06 08:03:34 - Action: create
+2025-11-06 08:03:34 - Data: Array
+(
+    [brand_name] => Logitech ygs
+    [model] => M444
+    [quantity_available] => 10
+    [purchase_date] => 2024-09-10
+    [serial_no] => SN12345
+    [su_no] => SU001
+    [remark] => Wireless mouse for office use
+)
+
+2025-11-06 08:03:34 - Creating mouse with data: Array
+(
+    [brand_name] => Logitech ygs
+    [model] => M444
+    [quantity_available] => 10
+    [purchase_date] => 2024-09-10
+    [serial_no] => SN12345
+    [su_no] => SU001
+    [remark] => Wireless mouse for office use
+)
+
+2025-11-06 08:03:34 - DB Connection: OK
+2025-11-06 08:03:34 - Table columns: id, brand_name, model, quantity_available, purchase_date, serial_no, su_no, remark, created_at
+2025-11-06 08:03:34 - Action: update
+2025-11-06 08:03:37 - Action: read
+2025-11-06 08:03:37 - Action: read
+2025-11-06 08:03:45 - Action: delete
+2025-11-06 08:03:47 - Action: read
+2025-11-06 08:03:54 - Action: delete
+2025-11-06 08:03:55 - Action: read
+2025-11-06 08:27:21 - Action: read
+2025-11-06 08:27:21 - Action: read
+2025-11-06 08:27:24 - Action: read
+2025-11-06 08:27:27 - Action: get
+2025-11-06 08:27:32 - Action: update
+2025-11-06 08:27:32 - Data: Array
+(
+    [brand_name] => Logitech
+    [model] => M444
+    [quantity_available] => 10
+    [purchase_date] => 2024-09-10
+    [serial_no] => SN12345
+    [su_no] => SU001
+    [remark] => Wireless mouse for office use
+)
+
+2025-11-06 08:27:32 - Creating mouse with data: Array
+(
+    [brand_name] => Logitech
+    [model] => M444
+    [quantity_available] => 10
+    [purchase_date] => 2024-09-10
+    [serial_no] => SN12345
+    [su_no] => SU001
+    [remark] => Wireless mouse for office use
+)
+
+2025-11-06 08:27:32 - DB Connection: OK
+2025-11-06 08:27:32 - Table columns: id, brand_name, model, quantity_available, purchase_date, serial_no, su_no, remark, created_at
+2025-11-06 08:27:35 - Action: read
+2025-11-06 08:27:35 - Action: read
+2025-11-06 08:27:40 - Action: delete
+2025-11-06 08:27:42 - Action: read
+2025-11-06 08:27:45 - Action: delete
+2025-11-06 08:27:46 - Action: read
+2025-11-06 08:27:49 - Action: delete
+2025-11-06 08:27:49 - Action: read
+2025-11-06 08:27:51 - Action: get
+2025-11-06 08:27:58 - Action: update
+2025-11-06 08:27:58 - Action: create
+2025-11-06 08:27:58 - Data: Array
+(
+    [brand_name] => Logitech
+    [model] => M185
+    [quantity_available] => 10
+    [purchase_date] => 2024-09-10
+    [serial_no] => SN12345
+    [su_no] => SU001
+    [remark] => Wireless mouse for office use
+)
+
+2025-11-06 08:27:58 - Creating mouse with data: Array
+(
+    [brand_name] => Logitech
+    [model] => M185
+    [quantity_available] => 10
+    [purchase_date] => 2024-09-10
+    [serial_no] => SN12345
+    [su_no] => SU001
+    [remark] => Wireless mouse for office use
+)
+
+2025-11-06 08:27:58 - DB Connection: OK
+2025-11-06 08:27:58 - Table columns: id, brand_name, model, quantity_available, purchase_date, serial_no, su_no, remark, created_at
+2025-11-06 08:28:01 - Action: read
+2025-11-06 08:28:01 - Action: read
+2025-11-06 08:28:51 - Action: read
+2025-11-06 08:28:51 - Action: read
+2025-11-06 08:28:57 - Action: read
+2025-11-06 08:28:59 - Action: get
+2025-11-06 08:29:04 - Action: create
+2025-11-06 08:29:04 - Data: Array
+(
+    [brand_name] => Logitech ggg
+    [model] => M185
+    [quantity_available] => 10
+    [purchase_date] => 2024-09-10
+    [serial_no] => SN12345
+    [su_no] => SU001
+    [remark] => Wireless mouse for office use
+)
+
+2025-11-06 08:29:04 - Creating mouse with data: Array
+(
+    [brand_name] => Logitech ggg
+    [model] => M185
+    [quantity_available] => 10
+    [purchase_date] => 2024-09-10
+    [serial_no] => SN12345
+    [su_no] => SU001
+    [remark] => Wireless mouse for office use
+)
+
+2025-11-06 08:29:04 - DB Connection: OK
+2025-11-06 08:29:05 - Table columns: id, brand_name, model, quantity_available, purchase_date, serial_no, su_no, remark, created_at
+2025-11-06 08:29:05 - Action: update
+2025-11-06 08:29:07 - Action: read
+2025-11-06 08:29:07 - Action: read
+2025-11-06 08:29:19 - Action: delete
+2025-11-06 08:29:20 - Action: read
+2025-11-06 08:29:23 - Action: delete
+2025-11-06 08:29:26 - Action: read
+2025-11-06 08:29:29 - Action: delete
+2025-11-06 08:29:30 - Action: read
+2025-11-06 08:29:35 - Action: delete
+2025-11-06 08:29:37 - Action: read
+2025-11-06 08:29:41 - Action: delete
+2025-11-06 08:29:42 - Action: read
+2025-11-06 08:29:48 - Action: get
+2025-11-06 08:29:56 - Action: create
+2025-11-06 08:29:56 - Action: update
+2025-11-06 08:29:56 - Data: Array
+(
+    [brand_name] => ugreen
+    [model] => M185
+    [quantity_available] => 10
+    [purchase_date] => 2024-09-10
+    [serial_no] => SN12345
+    [su_no] => SU001
+    [remark] => Wireless mouse for office use
+)
+
+2025-11-06 08:29:56 - Creating mouse with data: Array
+(
+    [brand_name] => ugreen
+    [model] => M185
+    [quantity_available] => 10
+    [purchase_date] => 2024-09-10
+    [serial_no] => SN12345
+    [su_no] => SU001
+    [remark] => Wireless mouse for office use
+)
+
+2025-11-06 08:29:56 - DB Connection: OK
+2025-11-06 08:29:56 - Table columns: id, brand_name, model, quantity_available, purchase_date, serial_no, su_no, remark, created_at
+2025-11-06 08:29:59 - Action: read
+2025-11-06 08:29:59 - Action: read
+2025-11-06 08:31:02 - Action: read
+2025-11-06 08:31:02 - Action: read
+2025-11-06 08:31:06 - Action: read
+2025-11-06 08:31:09 - Action: get
+2025-11-06 08:31:13 - Action: create
+2025-11-06 08:31:13 - Data: Array
+(
+    [brand_name] => ugreen 110
+    [model] => M185
+    [quantity_available] => 10
+    [purchase_date] => 2024-09-10
+    [serial_no] => SN12345
+    [su_no] => SU001
+    [remark] => Wireless mouse for office use
+)
+
+2025-11-06 08:31:13 - Creating mouse with data: Array
+(
+    [brand_name] => ugreen 110
+    [model] => M185
+    [quantity_available] => 10
+    [purchase_date] => 2024-09-10
+    [serial_no] => SN12345
+    [su_no] => SU001
+    [remark] => Wireless mouse for office use
+)
+
+2025-11-06 08:31:13 - DB Connection: OK
+2025-11-06 08:31:13 - Action: update
+2025-11-06 08:31:13 - Table columns: id, brand_name, model, quantity_available, purchase_date, serial_no, su_no, remark, created_at
+2025-11-06 08:31:16 - Action: read
+2025-11-06 08:31:16 - Action: read
+2025-11-06 09:07:26 - Action: read
+2025-11-06 09:07:26 - Action: read
+2025-11-06 09:07:27 - Action: read
+2025-11-06 09:07:27 - Action: read
+2025-11-06 09:07:27 - Action: read
+2025-11-06 09:07:27 - Action: read
+2025-11-06 09:07:27 - Action: read
+2025-11-06 09:07:27 - Action: read
+2025-11-06 09:07:28 - Action: read
+2025-11-06 09:07:28 - Action: read
+2025-11-06 09:07:28 - Action: read
+2025-11-06 09:07:28 - Action: read
+2025-11-06 09:07:28 - Action: read
+2025-11-06 09:07:28 - Action: read
+2025-11-06 09:07:28 - Action: read
+2025-11-06 09:07:28 - Action: read
+2025-11-06 09:07:29 - Action: read
+2025-11-06 09:07:29 - Action: read
+2025-11-06 09:07:29 - Action: read
+2025-11-06 09:07:29 - Action: read
+2025-11-06 09:07:29 - Action: read
+2025-11-06 09:07:29 - Action: read
+2025-11-06 09:07:29 - Action: read
+2025-11-06 09:07:29 - Action: read
+2025-11-06 09:07:30 - Action: read
+2025-11-06 09:07:30 - Action: read
+2025-11-06 09:07:30 - Action: read
+2025-11-06 09:07:30 - Action: read
+2025-11-06 09:07:30 - Action: read
+2025-11-06 09:07:30 - Action: read
+2025-11-06 09:07:30 - Action: read
+2025-11-06 09:07:30 - Action: read
+2025-11-06 09:07:31 - Action: read
+2025-11-06 09:07:31 - Action: read
+2025-11-06 09:07:31 - Action: read
+2025-11-06 09:07:31 - Action: read
+2025-11-06 09:07:31 - Action: read
+2025-11-06 09:07:31 - Action: read
+2025-11-06 10:57:21 - Action: read
+2025-11-06 10:57:28 - Action: get
+2025-11-06 10:57:33 - Action: create
+2025-11-06 10:57:33 - Action: update
+2025-11-06 10:57:33 - Data: Array
+(
+    [brand_name] => ugreen 120
+    [model] => M185
+    [quantity_available] => 10
+    [purchase_date] => 2024-09-10
+    [serial_no] => SN12345
+    [su_no] => SU001
+    [remark] => Wireless mouse for office use
+)
+
+2025-11-06 10:57:33 - Creating mouse with data: Array
+(
+    [brand_name] => ugreen 120
+    [model] => M185
+    [quantity_available] => 10
+    [purchase_date] => 2024-09-10
+    [serial_no] => SN12345
+    [su_no] => SU001
+    [remark] => Wireless mouse for office use
+)
+
+2025-11-06 10:57:33 - DB Connection: OK
+2025-11-06 10:57:33 - Table columns: id, brand_name, model, quantity_available, purchase_date, serial_no, su_no, remark, created_at
+2025-11-06 10:57:39 - Action: read
+2025-11-06 10:57:39 - Action: read
+2025-11-06 11:05:02 - Action: read
+2025-11-06 11:05:02 - Action: read
+2025-11-06 11:05:06 - Action: read
+2025-11-06 11:05:09 - Action: get
+2025-11-06 11:05:15 - Action: create
+2025-11-06 11:05:15 - Data: Array
+(
+    [brand_name] => ugreen 130
+    [model] => M185
+    [quantity_available] => 10
+    [purchase_date] => 2024-09-10
+    [serial_no] => SN12345
+    [su_no] => SU001
+    [remark] => Wireless mouse for office use
+)
+
+2025-11-06 11:05:15 - Creating mouse with data: Array
+(
+    [brand_name] => ugreen 130
+    [model] => M185
+    [quantity_available] => 10
+    [purchase_date] => 2024-09-10
+    [serial_no] => SN12345
+    [su_no] => SU001
+    [remark] => Wireless mouse for office use
+)
+
+2025-11-06 11:05:15 - DB Connection: OK
+2025-11-06 11:05:15 - Table columns: id, brand_name, model, quantity_available, purchase_date, serial_no, su_no, remark, created_at
+2025-11-06 11:05:15 - Action: update
+2025-11-06 11:05:19 - Action: read
+2025-11-06 11:05:19 - Action: read
+2025-11-06 11:09:59 - Action: read
+2025-11-06 11:09:59 - Action: read
+2025-11-06 11:25:33 - Action: read
+2025-11-06 11:25:36 - Action: get
+2025-11-06 11:25:42 - Action: create
+2025-11-06 11:25:42 - Action: update
+2025-11-06 11:25:42 - Data: Array
+(
+    [brand_name] => ugreen 140
+    [model] => M185
+    [quantity_available] => 10
+    [purchase_date] => 2024-09-10
+    [serial_no] => SN12345
+    [su_no] => SU001
+    [remark] => Wireless mouse for office use
+)
+
+2025-11-06 11:25:42 - Creating mouse with data: Array
+(
+    [brand_name] => ugreen 140
+    [model] => M185
+    [quantity_available] => 10
+    [purchase_date] => 2024-09-10
+    [serial_no] => SN12345
+    [su_no] => SU001
+    [remark] => Wireless mouse for office use
+)
+
+2025-11-06 11:25:42 - DB Connection: OK
+2025-11-06 11:25:42 - Table columns: id, brand_name, model, quantity_available, purchase_date, serial_no, su_no, remark, created_at
+2025-11-06 11:25:45 - Action: read
+2025-11-06 11:25:45 - Action: read
+2025-11-09 20:10:08 - Action: read
+2025-11-09 20:10:08 - Action: read
+2025-11-09 20:10:44 - Action: read
+2025-11-09 20:10:51 - Action: read
+2025-11-09 20:10:56 - Action: delete
+2025-11-09 20:10:58 - Action: read
+2025-11-09 20:11:01 - Action: get
+2025-11-09 20:11:08 - Action: create
+2025-11-09 20:11:08 - Data: Array
+(
+    [brand_name] => ugreen 150
+    [model] => M185
+    [quantity_available] => 10
+    [purchase_date] => 2024-09-10
+    [serial_no] => SN12345
+    [su_no] => SU001
+    [remark] => Wireless mouse for office use
+)
+
+2025-11-09 20:11:08 - Creating mouse with data: Array
+(
+    [brand_name] => ugreen 150
+    [model] => M185
+    [quantity_available] => 10
+    [purchase_date] => 2024-09-10
+    [serial_no] => SN12345
+    [su_no] => SU001
+    [remark] => Wireless mouse for office use
+)
+
+2025-11-09 20:11:08 - DB Connection: OK
+2025-11-09 20:11:08 - Table columns: id, brand_name, model, quantity_available, purchase_date, serial_no, su_no, remark, created_at
+2025-11-09 20:11:08 - Action: update
+2025-11-09 20:11:11 - Action: read
+2025-11-09 20:11:11 - Action: read
+2025-11-09 20:14:21 - Action: read
+2025-11-09 20:14:21 - Action: read
+2025-11-09 20:14:24 - Action: read
+2025-11-09 20:14:26 - Action: get
+2025-11-09 20:14:34 - Action: update
+2025-11-09 20:14:34 - Action: create
+2025-11-09 20:14:34 - Data: Array
+(
+    [brand_name] => ugreen 160
+    [model] => M185
+    [quantity_available] => 10
+    [purchase_date] => 2024-09-10
+    [serial_no] => SN12345
+    [su_no] => SU001
+    [remark] => Wireless mouse for office use
+)
+
+2025-11-09 20:14:34 - Creating mouse with data: Array
+(
+    [brand_name] => ugreen 160
+    [model] => M185
+    [quantity_available] => 10
+    [purchase_date] => 2024-09-10
+    [serial_no] => SN12345
+    [su_no] => SU001
+    [remark] => Wireless mouse for office use
+)
+
+2025-11-09 20:14:34 - DB Connection: OK
+2025-11-09 20:14:34 - Table columns: id, brand_name, model, quantity_available, purchase_date, serial_no, su_no, remark, created_at
+2025-11-09 20:14:36 - Action: read
+2025-11-09 20:14:36 - Action: read
+2025-11-09 20:15:26 - Action: get
+2025-11-09 20:15:32 - Action: create
+2025-11-09 20:15:32 - Action: update
+2025-11-09 20:15:32 - Data: Array
+(
+    [brand_name] => ugreen 170
+    [model] => M185
+    [quantity_available] => 10
+    [purchase_date] => 2024-09-10
+    [serial_no] => SN12345
+    [su_no] => SU001
+    [remark] => Wireless mouse for office use
+)
+
+2025-11-09 20:15:32 - Creating mouse with data: Array
+(
+    [brand_name] => ugreen 170
+    [model] => M185
+    [quantity_available] => 10
+    [purchase_date] => 2024-09-10
+    [serial_no] => SN12345
+    [su_no] => SU001
+    [remark] => Wireless mouse for office use
+)
+
+2025-11-09 20:15:32 - DB Connection: OK
+2025-11-09 20:15:32 - Table columns: id, brand_name, model, quantity_available, purchase_date, serial_no, su_no, remark, created_at
+2025-11-09 20:15:36 - Action: read
+2025-11-09 20:15:36 - Action: read
+2025-11-09 20:15:54 - Action: get
+2025-11-09 20:16:00 - Action: create
+2025-11-09 20:16:00 - Data: Array
+(
+    [brand_name] => ugreen 180
+    [model] => M185
+    [quantity_available] => 10
+    [purchase_date] => 2024-09-10
+    [serial_no] => SN12345
+    [su_no] => SU001
+    [remark] => Wireless mouse for office use
+)
+
+2025-11-09 20:16:00 - Creating mouse with data: Array
+(
+    [brand_name] => ugreen 180
+    [model] => M185
+    [quantity_available] => 10
+    [purchase_date] => 2024-09-10
+    [serial_no] => SN12345
+    [su_no] => SU001
+    [remark] => Wireless mouse for office use
+)
+
+2025-11-09 20:16:00 - DB Connection: OK
+2025-11-09 20:16:00 - Table columns: id, brand_name, model, quantity_available, purchase_date, serial_no, su_no, remark, created_at
+2025-11-09 20:16:00 - Action: update
+2025-11-09 20:16:02 - Action: read
+2025-11-09 20:16:02 - Action: read
+2025-11-09 20:16:09 - Action: delete
+2025-11-09 20:16:10 - Action: read
+2025-11-09 20:16:13 - Action: get
+2025-11-09 20:16:18 - Action: create
+2025-11-09 20:16:18 - Data: Array
+(
+    [brand_name] => ugreen 190
+    [model] => M185
+    [quantity_available] => 10
+    [purchase_date] => 2024-09-10
+    [serial_no] => SN12345
+    [su_no] => SU001
+    [remark] => Wireless mouse for office use
+)
+
+2025-11-09 20:16:18 - Creating mouse with data: Array
+(
+    [brand_name] => ugreen 190
+    [model] => M185
+    [quantity_available] => 10
+    [purchase_date] => 2024-09-10
+    [serial_no] => SN12345
+    [su_no] => SU001
+    [remark] => Wireless mouse for office use
+)
+
+2025-11-09 20:16:18 - DB Connection: OK
+2025-11-09 20:16:18 - Table columns: id, brand_name, model, quantity_available, purchase_date, serial_no, su_no, remark, created_at
+2025-11-09 20:16:21 - Action: read
+2025-11-09 20:16:21 - Action: read
+2025-11-09 20:16:25 - Action: delete
+2025-11-09 20:16:26 - Action: read
+2025-11-09 20:16:28 - Action: get
+2025-11-09 20:16:34 - Action: update
+2025-11-09 20:16:34 - Action: create
+2025-11-09 20:16:34 - Data: Array
+(
+    [brand_name] => ugreen 200
+    [model] => M185
+    [quantity_available] => 10
+    [purchase_date] => 2024-09-10
+    [serial_no] => SN12345
+    [su_no] => SU001
+    [remark] => Wireless mouse for office use
+)
+
+2025-11-09 20:16:34 - Creating mouse with data: Array
+(
+    [brand_name] => ugreen 200
+    [model] => M185
+    [quantity_available] => 10
+    [purchase_date] => 2024-09-10
+    [serial_no] => SN12345
+    [su_no] => SU001
+    [remark] => Wireless mouse for office use
+)
+
+2025-11-09 20:16:34 - DB Connection: OK
+2025-11-09 20:16:34 - Table columns: id, brand_name, model, quantity_available, purchase_date, serial_no, su_no, remark, created_at
+2025-11-09 20:16:35 - Action: read
+2025-11-09 20:16:35 - Action: read
+2025-11-09 20:17:25 - Action: read
+2025-11-09 20:17:25 - Action: read
+2025-11-09 20:17:32 - Action: read
+2025-11-09 20:17:35 - Action: get
+2025-11-09 20:17:40 - Action: create
+2025-11-09 20:17:40 - Data: Array
+(
+    [brand_name] => ugreen 110
+    [model] => M185
+    [quantity_available] => 10
+    [purchase_date] => 2024-09-10
+    [serial_no] => SN12345
+    [su_no] => SU001
+    [remark] => Wireless mouse for office use
+)
+
+2025-11-09 20:17:40 - Creating mouse with data: Array
+(
+    [brand_name] => ugreen 110
+    [model] => M185
+    [quantity_available] => 10
+    [purchase_date] => 2024-09-10
+    [serial_no] => SN12345
+    [su_no] => SU001
+    [remark] => Wireless mouse for office use
+)
+
+2025-11-09 20:17:40 - DB Connection: OK
+2025-11-09 20:17:41 - Table columns: id, brand_name, model, quantity_available, purchase_date, serial_no, su_no, remark, created_at
+2025-11-09 20:17:42 - Action: read
+2025-11-09 20:17:54 - Action: get
+2025-11-09 20:18:00 - Action: create
+2025-11-09 20:18:00 - Data: Array
+(
+    [brand_name] => ugreen 120
+    [model] => M185
+    [quantity_available] => 10
+    [purchase_date] => 2024-09-10
+    [serial_no] => SN12345
+    [su_no] => SU001
+    [remark] => Wireless mouse for office use
+)
+
+2025-11-09 20:18:00 - Creating mouse with data: Array
+(
+    [brand_name] => ugreen 120
+    [model] => M185
+    [quantity_available] => 10
+    [purchase_date] => 2024-09-10
+    [serial_no] => SN12345
+    [su_no] => SU001
+    [remark] => Wireless mouse for office use
+)
+
+2025-11-09 20:18:00 - DB Connection: OK
+2025-11-09 20:18:00 - Table columns: id, brand_name, model, quantity_available, purchase_date, serial_no, su_no, remark, created_at
+2025-11-09 20:18:02 - Action: read
+2025-11-09 20:22:08 - Action: read
+2025-11-09 20:22:08 - Action: read
+2025-11-09 20:22:13 - Action: read
+2025-11-09 20:22:16 - Action: get
+2025-11-09 20:22:23 - Action: update
+2025-11-09 20:22:24 - Action: read
+2025-11-09 20:22:29 - Action: get
+2025-11-09 20:22:32 - Action: update
+2025-11-09 20:22:34 - Action: read
+2025-11-09 20:22:47 - Action: get
+2025-11-09 20:22:51 - Action: update
+2025-11-09 20:22:52 - Action: read
+2025-11-09 20:22:56 - Action: delete
+2025-11-09 20:22:57 - Action: read
+2025-11-09 20:24:39 - Action: read
+2025-11-09 20:24:39 - Action: read
+2025-11-09 20:24:48 - Action: read
+2025-11-09 20:30:11 - Action: read
+2025-11-09 20:30:11 - Action: read
+2025-11-09 20:30:19 - Action: read
+2025-11-09 20:32:16 - Action: read
+2025-11-09 20:32:26 - Action: get
+2025-11-09 20:32:30 - Action: update
+2025-11-09 20:32:31 - Action: read
+2025-12-09 07:29:41 - Action: read
+2025-12-09 07:29:41 - Action: read
+2025-12-09 07:29:48 - Action: read
+2025-12-09 07:30:04 - Action: create
+2025-12-09 07:30:04 - Data: Array
+(
+    [brand_name] => Logitech
+    [model] => ax
+    [quantity_available] => 10
+    [purchase_date] => 2025-12-11
+    [serial_no] => axsx
+    [su_no] => axsaxs
+    [remark] => axaxsax
+)
+
+2025-12-09 07:30:04 - Creating mouse with data: Array
+(
+    [brand_name] => Logitech
+    [model] => ax
+    [quantity_available] => 10
+    [purchase_date] => 2025-12-11
+    [serial_no] => axsx
+    [su_no] => axsaxs
+    [remark] => axaxsax
+)
+
+2025-12-09 07:30:04 - DB Connection: OK
+2025-12-09 07:30:04 - Table columns: id, brand_name, model, quantity_available, purchase_date, serial_no, su_no, remark, created_at
+2025-12-09 07:30:06 - Action: read
+2025-12-09 07:30:10 - Action: get
+2025-12-09 07:30:14 - Action: update
+2025-12-09 07:30:15 - Action: read
+2025-12-09 07:39:51 - Action: read
+2025-12-09 07:39:51 - Action: read
+2025-12-09 07:39:54 - Action: read
+2025-12-09 07:40:03 - Action: read
+2025-12-09 07:40:03 - Action: read
+2025-12-09 07:40:10 - Action: read
+2025-12-09 07:40:10 - Action: read
+2025-12-09 07:40:14 - Action: read
+2025-12-09 07:40:42 - Action: read
+2025-12-09 07:47:23 - Action: read
+2025-12-09 07:47:23 - Action: read
+2025-12-09 07:47:27 - Action: read
+2025-12-09 07:49:21 - Action: read
+2025-12-09 07:49:21 - Action: read
+2025-12-09 07:49:30 - Action: read
+2025-12-09 07:49:30 - Action: read
+2025-12-09 07:49:34 - Action: read
+2025-12-09 07:50:52 - Action: read
+2025-12-09 07:50:52 - Action: read
+2025-12-09 07:51:10 - Action: read
+2025-12-09 07:52:57 - Action: read
+2025-12-09 08:03:28 - Action: read
+2025-12-09 08:03:28 - Action: read
+2025-12-09 08:03:30 - Action: read
+2025-12-09 08:27:33 - Action: read
+2025-12-09 08:27:33 - Action: read
+2025-12-09 08:29:32 - Action: read
+2025-12-09 08:30:02 - Action: read
+2025-12-09 08:30:02 - Action: read
+2025-12-09 08:30:36 - Action: read
+2025-12-09 08:30:36 - Action: read
+2025-12-09 08:35:28 - Action: read
+2025-12-09 08:43:32 - Action: read
+2025-12-09 08:43:32 - Action: read
+2025-12-09 08:45:30 - Action: read

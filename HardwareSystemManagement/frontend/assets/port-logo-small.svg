@@ -1,0 +1,12 @@
+&lt;svg xmlns="http://www.w3.org/2000/svg" width="100" height="40" viewBox="0 0 100 40"&gt;
+  &lt;!-- Background --&gt;
+  &lt;rect width="100" height="40" rx="5" fill="#001f3f"/&gt;
+  
+  &lt;!-- Ship silhouette --&gt;
+  &lt;path d="M20,25 L80,25 L75,30 L25,30 Z" fill="#ffc107"/&gt;
+  &lt;path d="M30,20 L70,20 L75,25 L25,25 Z" fill="#00a0c8"/&gt;
+  &lt;path d="M40,15 L60,15 L65,20 L35,20 Z" fill="#ffffff"/&gt;
+  
+  &lt;!-- Text --&gt;
+  &lt;text x="50" y="35" text-anchor="middle" fill="#ffffff" font-family="Arial" font-weight="bold" font-size="7"&gt;SL PORT AUTHORITY&lt;/text&gt;
+&lt;/svg&gt;

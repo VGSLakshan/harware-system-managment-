@@ -1,0 +1,60 @@
+/* Form-only mode styles */
+.form-only-mode #home,
+.form-only-mode #features,
+.form-only-mode .footer {
+  display: none !important;
+}
+
+.form-only-mode .form-section {
+  min-height: calc(100vh - 70px);
+  margin-top: 70px;
+  padding-top: 2rem;
+}
+
+.form-only-mode .form-section::before {
+  display: none;
+}
+
+/* Back to home button */
+.back-home-container {
+  display: none;
+  text-align: left;
+  margin-bottom: 1.5rem;
+}
+
+.form-only-mode .back-home-container {
+  display: block;
+}
+
+.back-home-btn {
+  background-color: transparent;
+  border: none;
+  color: var(--port-dark);
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border-radius: 4px;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  transition: all 0.3s ease;
+}
+
+.back-home-btn:hover {
+  background-color: rgba(0, 31, 63, 0.05);
+  color: var(--port-accent);
+}
+
+.back-home-btn i {
+  font-size: 0.9rem;
+}
+
+/* Form section styles for expanded view */
+.form-section.expanded {
+  padding-top: 2rem;
+}
+
+.form-section.expanded .form-container {
+  margin-top: 1.5rem;
+}

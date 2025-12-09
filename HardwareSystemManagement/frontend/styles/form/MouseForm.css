@@ -1,0 +1,231 @@
+/* ------------------------------
+   Global Styles
+------------------------------ */
+body {
+  background-color: #f0f2f8;
+  font-family: "Inter", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #2c3e50;
+  line-height: 1.6;
+}
+
+/* ------------------------------
+   Form Container
+------------------------------ */
+form#mouseForm {
+  max-width: 540px;
+  margin: 60px auto;
+  padding: 40px 36px;
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 12px 36px rgba(0, 0, 0, 0.08);
+  border: 1px solid #e0e4eb;
+  transition: all 0.3s ease-in-out;
+}
+
+form#mouseForm:hover {
+  box-shadow: 0 16px 48px rgba(0, 0, 0, 0.12);
+}
+
+/* ------------------------------
+   Heading
+------------------------------ */
+form#mouseForm h2 {
+  text-align: center;
+  margin-bottom: 32px;
+  font-size: 28px;
+  font-weight: 700;
+  color: #1f2937;
+  border-bottom: 2px solid #e0e4eb;
+  padding-bottom: 14px;
+  letter-spacing: 0.5px;
+}
+
+/* ------------------------------
+   Labels
+------------------------------ */
+form#mouseForm label {
+  display: block;
+  margin-bottom: 8px;
+  color: #4b5563;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 0.4px;
+}
+
+/* ------------------------------
+   Inputs & Textarea
+------------------------------ */
+form#mouseForm input[type="text"],
+form#mouseForm input[type="number"],
+form#mouseForm input[type="date"],
+form#mouseForm textarea {
+  width: 100%;
+  padding: 14px 16px;
+  font-size: 15px;
+  border: 1px solid #cbd5e1;
+  border-radius: 10px;
+  box-sizing: border-box;
+  transition: all 0.3s ease;
+  background-color: #f9fafb;
+  font-weight: 500;
+}
+
+form#mouseForm input:focus,
+form#mouseForm textarea:focus {
+  border-color: #3b82f6;
+  background-color: #ffffff;
+  box-shadow: 0 0 0 4px rgba(59, 130, 246, 0.2);
+  outline: none;
+}
+
+/* Textarea */
+form#mouseForm textarea {
+  resize: vertical;
+  min-height: 100px;
+  line-height: 1.5;
+}
+
+/* ------------------------------
+   Button
+------------------------------ */
+form#mouseForm button[type="submit"] {
+  margin-top: 30px;
+  width: 100%;
+  padding: 16px;
+  background: linear-gradient(90deg, #3b82f6, #2563eb);
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 700;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+form#mouseForm button[type="submit"]:hover {
+  background: linear-gradient(90deg, #2563eb, #1e40af);
+  box-shadow: 0 8px 20px rgba(37, 99, 235, 0.3);
+  transform: translateY(-2px);
+}
+
+/* ------------------------------
+   Layout
+------------------------------ */
+.form-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  margin-bottom: 18px;
+}
+
+.form-group {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group input,
+.form-group textarea {
+  min-height: 48px;
+}
+
+/* ------------------------------
+   Responsive
+------------------------------ */
+@media (max-width: 640px) {
+  .form-row {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  form#mouseForm {
+    padding: 28px 20px;
+    margin: 40px 16px;
+  }
+}
+.container {
+  max-width: 900px;
+  margin: 0 auto;      /* center everything */
+}
+
+form {
+  background-color: #f9f9f9;
+  padding: 15px;
+  margin-bottom: 30px; /* space between form and table */
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+    h2 {
+      text-align: center;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+    th, td {
+      padding: 8px;
+      border: 1px solid #ddd;
+      text-align: center;
+    }
+    th {
+      background-color: #144566;
+      color: white;
+    }
+    tr:nth-child(even) {
+      background-color: #f9f9f9;
+    }
+
+    #mouseTable tbody tr {
+  border-bottom: 2px solid #144566; /* or any color you like */
+}
+#mouseTable tbody tr:last-child {
+  border-bottom: none; /* optional: remove line after last row */
+}
+
+
+
+
+
+
+
+
+
+/* Align the table cell content */
+td {
+  text-align: center;
+}
+
+/* General button style inside table */
+td button {
+  font-size: 14px;
+  padding: 6px 12px;
+  margin: 0 3px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+  color: #fff;
+  transition: all 0.25s ease;
+}
+
+/* Edit button (Blue) */
+td button:nth-child(1) {
+  background-color: #1e90ff;
+}
+td button:nth-child(1):hover {
+  background-color: #187bcd;
+  transform: scale(1.05);
+}
+
+/* Delete button (Red) */
+td button:nth-child(2) {
+  background-color: #e74c3c;
+}
+td button:nth-child(2):hover {
+  background-color: #c0392b;
+  transform: scale(1.05);
+}

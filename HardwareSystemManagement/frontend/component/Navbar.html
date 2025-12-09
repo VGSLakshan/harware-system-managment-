@@ -1,0 +1,107 @@
+<div class="navbar port-navbar">
+  <div class="navbar-container">
+    <div class="logo">
+      <span>Sri Lanka Port Authority</span>
+    </div>
+
+    <nav class="nav-links">
+      <div class="hardware-dropdown">
+        <select id="hardware-select" class="hardware-select">
+          <option value="">-- Choose Hardware --</option>
+          <option value="mouse">Mouse</option>
+          <option value="keyboard">Keyboard</option>
+          <option value="cmos">CMOS Battery</option>
+          <option value="cpu">CPU Fan</option>
+          <option value="power">Power Supply Units</option>
+          <option value="ram">RAM</option>
+          <option value="harddisk">Hard Disk</option>
+          <option value="networkpci">Network PCI</option>
+        </select>
+      </div>
+    </nav>
+
+    <div class="mobile-toggle">
+      <i class="fas fa-bars"></i>
+    </div>
+  </div>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      // Get hardware select element
+      const hardwareSelect = document.getElementById("hardware-select");
+
+      // Apply styles to make options visible
+      const options = hardwareSelect.querySelectorAll("option");
+      options.forEach((option) => {
+        option.style.backgroundColor = "#ffffff";
+        option.style.color = "#001f3f";
+        option.style.padding = "10px";
+      });
+
+      // Handle hardware selection change
+      hardwareSelect.addEventListener("change", function () {
+        if (this.value) {
+          // Hide home page sections and show only form section
+          document.body.classList.add("form-only-mode");
+
+          // Scroll to form container and ensure it's visible
+          const formContainer = document.getElementById("form-container");
+          if (formContainer) {
+            formContainer.classList.add("expanded");
+            formContainer.scrollIntoView({ behavior: "smooth" });
+          }
+        }
+      });
+
+      // Mobile menu toggle
+      const mobileToggle = document.querySelector(".mobile-toggle");
+      const navLinks = document.querySelector(".nav-links");
+
+      mobileToggle.addEventListener("click", function () {
+        navLinks.classList.toggle("active");
+        this.querySelector("i").classList.toggle("fa-bars");
+        this.querySelector("i").classList.toggle("fa-times");
+      });
+
+      // Handle home link click if it exists
+      const homeLink = document.getElementById("home-link");
+      if (homeLink) {
+        homeLink.addEventListener("click", function (e) {
+          e.preventDefault();
+
+          // Reset form-only-mode
+          document.body.classList.remove("form-only-mode");
+
+          // Reset form container
+          const formSection = document.getElementById("form-container");
+          if (formSection) {
+            formSection.classList.remove("expanded");
+          }
+
+          // Clear the form
+          const formContainer = document.querySelector(".form-container");
+          if (formContainer) {
+            formContainer.innerHTML = "";
+
+            // Reset hardware select
+            if (hardwareSelect) {
+              hardwareSelect.value = "";
+            }
+
+            // Remove any form-specific CSS
+            const existingLink = document.getElementById("dynamic-form-css");
+            if (existingLink) {
+              existingLink.remove();
+            }
+          }
+
+          // Scroll to top
+          window.scrollTo({
+            top: 0,
+            behavior: "smooth",
+          });
+        });
+      }
+    });
+  </script>
+</div>

@@ -1,0 +1,196 @@
+/* PowerSupplyForm.css */
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Form Container */
+form#powerSupplyForm {
+  max-width: 650px;
+  margin: 60px auto;
+  padding: 30px 40px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  border: 1px solid #e0e0e0;
+}
+
+/* Heading */
+form#powerSupplyForm h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 24px;
+  color: #333;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+}
+
+/* Labels */
+form#powerSupplyForm label {
+  display: block;
+  margin-bottom: 6px;
+  color: #444;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+/* Inputs & Textarea */
+form#powerSupplyForm input[type="text"],
+form#powerSupplyForm input[type="date"],
+form#powerSupplyForm textarea {
+  width: 100%;
+  padding: 10px 12px;
+  font-size: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease;
+}
+
+form#powerSupplyForm input:focus,
+form#powerSupplyForm textarea:focus {
+  border-color: #2196f3;
+  outline: none;
+}
+
+/* Textarea */
+form#powerSupplyForm textarea {
+  resize: vertical;
+  min-height: 80px;
+}
+
+/* Submit Button */
+form#powerSupplyForm button[type="submit"] {
+  margin-top: 25px;
+  width: 100%;
+  padding: 12px;
+  background-color: #2196f3;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+form#powerSupplyForm button[type="submit"]:hover {
+  background-color: #1976d2;
+}
+
+/* Two-column layout */
+.form-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.form-group {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Consistent input height */
+.form-group input,
+.form-group textarea {
+  min-height: 40px;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .form-row {
+    flex-direction: column;
+  }
+}
+
+
+
+
+
+/* ------------------------------
+   Table + Container (Optional)
+------------------------------ */
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+form {
+  background-color: #f9f9f9;
+  padding: 15px;
+  margin-bottom: 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: #ffffff;
+}
+
+th,
+td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: center;
+  color: #000;
+}
+
+th {
+  background-color: #144566;
+  color: #ffffff;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+#keyboardTable tbody tr {
+  border-bottom: 2px solid #144566;
+}
+#keyboardTable tbody tr:last-child {
+  border-bottom: none;
+}
+
+/* Align cell content */
+td {
+  text-align: center;
+}
+
+/* Table Buttons */
+td button {
+  font-size: 14px;
+  padding: 6px 12px;
+  margin: 0 3px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+  color: #fff;
+  transition: all 0.25s ease;
+}
+
+/* Edit Button */
+td button:nth-child(1) {
+  background-color: #1e90ff;
+}
+td button:nth-child(1):hover {
+  background-color: #187bcd;
+  transform: scale(1.05);
+}
+
+/* Delete Button */
+td button:nth-child(2) {
+  background-color: #e74c3c;
+}
+td button:nth-child(2):hover {
+  background-color: #c0392b;
+  transform: scale(1.05);
+}

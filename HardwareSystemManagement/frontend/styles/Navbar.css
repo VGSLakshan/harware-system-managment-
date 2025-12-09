@@ -1,0 +1,163 @@
+/* ========== Theme ========== */
+:root{
+  --nav-bg: #001f3f;        /* dark navy */
+  --nav-bg-scrolled:#02152a;/* slightly darker on scroll */
+  --nav-accent:#ffc107;     /* amber */
+  --nav-text:#ffffff;       /* white */
+  --nav-muted:#bcd1e6;      /* soft blue-gray */
+  --shadow: 0 8px 24px rgba(0,0,0,.22);
+  --transition: .28s cubic-bezier(.22,.61,.36,1);
+}
+
+/* ========== Navbar ========== */
+.navbar.port-navbar{
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: var(--nav-bg);
+  backdrop-filter: saturate(140%) blur(6px);
+  border-bottom: 2px solid rgba(255,255,255,.12);
+  box-shadow: var(--shadow);
+  transition: background var(--transition), padding var(--transition), box-shadow var(--transition);
+}
+
+/* optional: if you add/remove .scrolled with JS */
+.navbar.port-navbar.scrolled{
+  background: var(--nav-bg-scrolled);
+}
+
+.navbar-container{
+  max-width: 1200px;
+  height: 64px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  color: var(--nav-text);
+}
+
+/* ========== Branding ========== */
+.logo{
+  display:flex; align-items:center; gap:10px; color:var(--nav-text);
+  font-weight: 700; letter-spacing:.2px;
+}
+.navbar-logo-img{ height:34px; width:auto; display:block; }
+
+/* ========== Links Row ========== */
+.nav-links{
+  display:flex; align-items:center; gap:22px;
+}
+
+/* Text links (if you add <a class="nav-link">…</a>) */
+.nav-link{
+  color:var(--nav-text);
+  position:relative; text-decoration:none; font-weight:500;
+  opacity:.95; transition:opacity var(--transition), color var(--transition);
+}
+.nav-link:hover{ opacity:1; color:#fff; }
+.nav-link::after{
+  content:""; position:absolute; left:0; bottom:-6px; height:2px; width:0;
+  background:var(--nav-accent); transition:width var(--transition);
+}
+.nav-link:hover::after{ width:100%; }
+
+/* ========== Hardware <select> (modern style) ========== */
+.hardware-dropdown{ position:relative; }
+
+#hardware-select{
+  appearance:none;
+  -webkit-appearance:none;
+  -moz-appearance:none;
+  background:
+    linear-gradient(to bottom, rgba(255,255,255,.08), rgba(255,255,255,.04)) padding-box,
+    linear-gradient(to bottom, rgba(255,255,255,.18), rgba(255,255,255,.06)) border-box;
+  border:2px solid rgba(255,255,255,.22);
+  color:var(--nav-text);
+  font-weight:600;
+  padding:12px 44px 12px 18px;
+  border-radius:12px;
+  outline:none;
+  min-width: 240px;
+  cursor:pointer;
+  transition:border-color var(--transition), box-shadow var(--transition), transform var(--transition);
+  box-shadow: 0 2px 10px rgba(0,0,0,.25) inset, 0 6px 16px rgba(0,0,0,.18);
+  font-size: 15px;
+}
+
+/* caret icon (pure CSS SVG) */
+#hardware-select{
+  background-image:
+    url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='18' height='18' viewBox='0 0 24 24' fill='%23ffc107'><path d='M7 10l5 5 5-5z'/></svg>");
+  background-repeat:no-repeat;
+  background-position: right 14px center;
+  background-size: 22px;
+}
+
+#hardware-select:hover{
+  transform: translateY(-2px);
+  border-color: var(--nav-accent);
+  box-shadow: 0 2px 10px rgba(0,0,0,.25) inset, 0 10px 24px rgba(0,0,0,.24);
+}
+
+#hardware-select:focus{
+  border-color: var(--nav-accent);
+  box-shadow: 0 0 0 3px rgba(255,193,7,.25), 0 2px 10px rgba(0,0,0,.25) inset;
+}
+
+/* Fix option colors and background to ensure visibility */
+#hardware-select option {
+  background-color: #fff;
+  color: #001f3f;
+  padding: 10px;
+  font-weight: 500;
+}
+
+/* ========== Mobile Toggle ========== */
+.mobile-toggle{
+  display:none;
+  font-size:22px; color:var(--nav-text); cursor:pointer;
+  width:40px; height:40px; border-radius:10px;
+  display:flex; align-items:center; justify-content:center;
+  background: rgba(255,255,255,.06);
+  border:1px solid rgba(255,255,255,.14);
+  transition:transform var(--transition), background var(--transition);
+}
+.mobile-toggle:hover{ transform: translateY(-1px); background: rgba(255,255,255,.12); }
+
+/* ========== Responsive ========== */
+@media (max-width: 992px){
+  .mobile-toggle{ display:flex; }
+  .nav-links{
+    position: fixed;
+    top: 64px; left: 0; right: 0;
+    background: var(--nav-bg);
+    border-bottom: 1px solid rgba(255,255,255,.08);
+    box-shadow: var(--shadow);
+    flex-direction: column;
+    gap:14px;
+    padding: 20px;
+    transform: translateY(-120%);
+    opacity: 0; visibility: hidden;
+    transition: transform var(--transition), opacity var(--transition), visibility var(--transition);
+  }
+  .nav-links.active{
+    transform: translateY(0);
+    opacity: 1; visibility: visible;
+  }
+
+  /* Expand select to full width on mobile */
+  #hardware-select{ 
+    width:100%; 
+    min-width:unset; 
+    padding: 14px 44px 14px 16px;
+  }
+}
+
+/* Accessibility / motion */
+@media (prefers-reduced-motion: reduce){
+  .navbar.port-navbar, .nav-links, .nav-link::after, #hardware-select, .mobile-toggle{
+    transition: none !important;
+  }
+}

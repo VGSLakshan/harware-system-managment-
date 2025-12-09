@@ -1,0 +1,19 @@
+&lt;svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200"&gt;
+  &lt;!-- Background circle --&gt;
+  &lt;circle cx="100" cy="100" r="95" fill="#001f3f" stroke="#ffc107" stroke-width="3"/&gt;
+  
+  &lt;!-- Ship silhouette --&gt;
+  &lt;path d="M40,120 L160,120 L150,140 L50,140 Z" fill="#ffc107"/&gt;
+  &lt;path d="M70,100 L130,100 L140,120 L60,120 Z" fill="#00a0c8"/&gt;
+  &lt;path d="M90,80 L110,80 L120,100 L80,100 Z" fill="#ffffff"/&gt;
+  
+  &lt;!-- Anchor --&gt;
+  &lt;circle cx="100" cy="60" r="6" fill="#ffc107"/&gt;
+  &lt;path d="M100,66 L100,90 M85,75 L115,75" stroke="#ffc107" stroke-width="4"/&gt;
+  
+  &lt;!-- Waves --&gt;
+  &lt;path d="M30,150 Q45,145 60,150 Q75,155 90,150 Q105,145 120,150 Q135,155 150,150 Q165,145 180,150" stroke="#00a0c8" stroke-width="4" fill="none"/&gt;
+  
+  &lt;!-- Text --&gt;
+  &lt;text x="100" y="170" text-anchor="middle" fill="#ffffff" font-family="Arial" font-weight="bold" font-size="14"&gt;SRI LANKA PORT AUTHORITY&lt;/text&gt;
+&lt;/svg&gt;

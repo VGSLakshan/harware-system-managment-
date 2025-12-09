@@ -1,0 +1,108 @@
+<!-- PowerSupplyForm.html -->
+<form id="powerSupplyForm">
+  <h2>Add Power Supply Details</h2>
+  <input type="hidden" id="id" name="id" />
+
+  <div class="form-row">
+    <div class="form-group">
+      <label for="power_supply_no">Power Supply No:</label>
+      <input type="text" id="power_supply_no" name="power_supply_no" required />
+    </div>
+    <div class="form-group">
+      <label for="date">Date:</label>
+      <input type="date" id="date" name="date" required />
+    </div>
+  </div>
+
+  <div class="form-row">
+    <div class="form-group">
+      <label for="model">Model:</label>
+      <input type="text" id="model" name="model" required />
+    </div>
+    <div class="form-group">
+      <label for="serial_no">Serial No:</label>
+      <input type="text" id="serial_no" name="serial_no" required />
+    </div>
+  </div>
+
+  <div class="form-row">
+    <div class="form-group">
+      <label for="su_no">SU No:</label>
+      <input type="text" id="su_no" name="su_no" />
+    </div>
+    <div class="form-group">
+      <label for="job_no">Job No:</label>
+      <input type="text" id="job_no" name="job_no" />
+    </div>
+  </div>
+
+  <div class="form-row">
+    <div class="form-group">
+      <label for="division">Division:</label>
+      <input type="text" id="division" name="division" />
+    </div>
+    <div class="form-group" style="visibility: hidden"></div>
+    <!-- spacer -->
+  </div>
+
+  <div class="form-row">
+    <div class="form-group" style="width: 100%">
+      <label for="remarks">Remarks:</label>
+      <textarea id="remarks" name="remarks"></textarea>
+    </div>
+  </div>
+
+  <div class="form-row">
+    <div class="form-group" style="width: 100%">
+      <button type="submit" id="submitBtn">Save</button>
+      <button type="button" id="resetBtn">Reset</button>
+    </div>
+  </div>
+</form>
+
+<div
+  style="
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+    gap: 10px;
+  "
+>
+  <h2 style="margin: 0; flex: 1">Power Supply List</h2>
+  <input
+    type="text"
+    id="powerSupplySearch"
+    placeholder="Search..."
+    style="
+      padding: 8px 15px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-family: Arial;
+      width: 250px;
+    "
+  />
+</div>
+
+<div class="table-container">
+  <table id="powerSupplyTable">
+    <thead>
+      <tr>
+        <th>PSU No</th>
+        <th>Date</th>
+        <th>Model</th>
+        <th>Serial No</th>
+        <th>SU No</th>
+        <th>Job No</th>
+        <th>Division</th>
+        <th>Remarks</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td colspan="9" style="text-align: center">Loading...</td>
+      </tr>
+    </tbody>
+  </table>
+</div>

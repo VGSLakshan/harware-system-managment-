@@ -1,0 +1,103 @@
+<form id="keyboardForm">
+  <input type="hidden" id="id" name="id" />
+  <!-- for edit mode -->
+
+  <h2>Add Keyboard Details</h2>
+
+  <div class="form-row">
+    <div class="form-group">
+      <label for="brand_name">Brand Name:</label>
+      <input type="text" id="brand_name" name="brand_name" required />
+    </div>
+    <div class="form-group">
+      <label for="model">Model:</label>
+      <input type="text" id="model" name="model" required />
+    </div>
+  </div>
+
+  <div class="form-row">
+    <div class="form-group">
+      <label for="quantity_available">Quantity Available:</label>
+      <input
+        type="number"
+        id="quantity_available"
+        name="quantity_available"
+        required
+      />
+    </div>
+    <div class="form-group">
+      <label for="purchase_date">Purchase Date:</label>
+      <input type="date" id="purchase_date" name="purchase_date" required />
+    </div>
+  </div>
+
+  <div class="form-row">
+    <div class="form-group">
+      <label for="serial_no">Serial No:</label>
+      <input type="text" id="serial_no" name="serial_no" />
+    </div>
+    <div class="form-group">
+      <label for="su_no">SU No:</label>
+      <input type="text" id="su_no" name="su_no" />
+    </div>
+  </div>
+
+  <div class="form-row">
+    <div class="form-group" style="width: 100%">
+      <label for="remarks">Remarks:</label>
+      <textarea id="remarks" name="remarks"></textarea>
+    </div>
+  </div>
+
+  <div class="form-buttons">
+    <button type="submit" id="submitBtn">Save</button>
+  </div>
+</form>
+
+<div
+  style="
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+    gap: 10px;
+  "
+>
+  <h2 style="margin: 0; flex: 1">Keyboard Inventory</h2>
+  <input
+    type="text"
+    id="keyboardSearch"
+    placeholder="Search..."
+    style="
+      padding: 8px 15px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-family: Arial;
+      width: 250px;
+    "
+  />
+</div>
+
+<div class="keyboard-listing">
+  <div class="table-container">
+    <table id="keyboardTable">
+      <thead>
+        <tr>
+          <th>Brand</th>
+          <th>Model</th>
+          <th>Quantity</th>
+          <th>Purchase Date</th>
+          <th>Serial No</th>
+          <th>SU No</th>
+          <th>Remarks</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Keyboard data will be loaded here -->
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<script src="../../js/keyboard.js"></script>
