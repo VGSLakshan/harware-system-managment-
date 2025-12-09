@@ -1826,5 +1826,86 @@ function initializeTableSearches() {
   }, 200);
 }
 
+// ============================================================
+// PDF DOWNLOAD FUNCTIONALITY
+// ============================================================
+
+function downloadTablePDF(tableId, fileName) {
+  const table = document.getElementById(tableId);
+  if (!table) {
+    alert('Table not found');
+    return;
+  }
+
+  // Get all visible rows (not hidden by search)
+  const rows = [];
+  const thead = table.querySelector('thead');
+  const tbody = table.querySelector('tbody');
+  
+  if (thead) {
+    rows.push(thead.querySelectorAll('tr'));
+  }
+  if (tbody) {
+    rows.push(tbody.querySelectorAll('tr:not([style*="display: none"])'));
+  }
+
+  // Build HTML table for PDF
+  let htmlTable = '<table border="1" cellpadding="8" cellspacing="0" style="width: 100%; border-collapse: collapse;">';
+  
+  if (thead) {
+    htmlTable += '<thead><tr style="background-color: #144566; color: white;">';
+    thead.querySelectorAll('th').forEach(th => {
+      htmlTable += '<th style="padding: 10px; text-align: left;">' + (th.textContent || '') + '</th>';
+    });
+    htmlTable += '</tr></thead>';
+  }
+
+  htmlTable += '<tbody>';
+  if (tbody) {
+    tbody.querySelectorAll('tr').forEach(row => {
+      if (row.style.display !== 'none') {
+        htmlTable += '<tr>';
+        row.querySelectorAll('td').forEach(td => {
+          // Skip action buttons
+          if (!td.innerHTML.includes('onclick')) {
+            htmlTable += '<td style="padding: 8px; text-align: left;">' + (td.textContent || '') + '</td>';
+          }
+        });
+        htmlTable += '</tr>';
+      }
+    });
+  }
+  htmlTable += '</tbody></table>';
+
+  // Create PDF using simple HTML to PDF
+  const pdfWindow = window.open('', '_blank');
+  pdfWindow.document.write(`
+    <html>
+      <head>
+        <title>${fileName}</title>
+        <style>
+          body { font-family: Arial, sans-serif; margin: 20px; }
+          h1 { color: #144566; }
+          table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+          th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+          th { background-color: #144566; color: white; }
+          tr:nth-child(even) { background-color: #f9f9f9; }
+        </style>
+      </head>
+      <body>
+        <h1>${fileName}</h1>
+        <p>Generated on: ${new Date().toLocaleString()}</p>
+        ${htmlTable}
+      </body>
+    </html>
+  `);
+  pdfWindow.document.close();
+  
+  // Wait a moment for content to render, then print to PDF
+  setTimeout(() => {
+    pdfWindow.print();
+  }, 250);
+}
+
 
 
